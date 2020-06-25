@@ -5,10 +5,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Avatar | CoCreate</title>
-  
-    <link rel="stylesheet" href="https://server.cocreate.app/css/CoCreateUI.min.css" type="text/css" />
-    <!--<link rel="stylesheet" href="https://cdn.cocreate.app/CoCreate.min.css" type="text/css" />-->
+    <link rel="icon" href="https://cdn.cocreate.app/favicon.ico" type="image/ico" sizes="16x16">
+    <title>Chart | CoCreate</title>
+    
+    <!-- CoCreateCSS -->
+    <link rel="stylesheet" href="https://cdn.cocreate.app/CoCreate.min.css" type="text/css" />
     
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" crossorigin="anonymous" />    
@@ -45,55 +46,55 @@
 
   </head>
   <body translate="no">
-    <div data-main_content_id="content" data-nav_effect="sticky-nav" data-nav_scroll="200" class="nav width-100-percent display-flex align-items-center height-50px">
-      <a aria-label="mobile menu" class="nav-toggle menu_icon--hamburger" data-toggle_sidenav="menuL">
-        <span></span>
-        <span></span>
-        <span></span>
-      </a>
-      <ul class="cocreate-scroll display-inline-flex direction-rtl font-size-20px align-items-center list-style-type-none">
-      	<li><a class="fs-toggle"><i class="fas fa-expand" data-transform_to="fas fa-compress"></i></a></li>
-      	<li>
-      	   <a target="modal" href="render.html"
-            	 data-pass_collection="modules"
-            	 data-pass_module_id="" 
-            	 data-pass_prefix="" 
-            	 data-pass_to="builder" 
-               data-modal_width="100%"
-               class="sessionAdminUI_Id">
-            		<i class="fas fa-palette"></i>
-          		 <div data-pass_collection="modules"
-            		   data-pass_module_id=""
-            	     data-pass_prefix=""
-            		   data-pass_to="render"
-            		   class="sessionBuilderUI_Id">
-          		 </div>
-          </a>
-        </li>
-    	  <li class="display-flex">
-		      <span class="cocreate-badge position-relative right-8px bottom-5px display-inline-flex border-radius-5px">4</span>	
-          <a target="modal" href="render.html" data-pass_collection="modules" data-pass_prefix="datatable_" data-pass_module_id="" data-pass_to="render" data-modal_width="100%" data-modal_height="100%" data-modal_color="#229954">
-            <i class="fas fa-history"></i>
-		      </a>
-    	  </li>							     
-        <li class="display-flex">
-		      <span class="cocreate-badge position-relative right-8px bottom-5px display-inline-flex border-radius-5px">4</span>	
-  				<a target="modal" href="render.html" data-pass_collection="modules" data-pass_prefix="" data-pass_module_id="5dc846ebcddd6b0de2c40b80" data-pass_to="render" data-modal_width="100%" data-modal_height="100%" data-modal_color="#229954">
-          	 <i class="fa fa-calendar" aria-hidden="true"></i>
-  				</a>
-    	  </li>
-      </ul>
+   <!-- <div data-main_content_id="content" data-nav_effect="sticky-nav" data-nav_scroll="200" class="nav width-100-percent display-flex align-items-center height-50px">-->
+   <!--   <a aria-label="mobile menu" class="nav-toggle menu_icon--hamburger" data-toggle_sidenav="menuL">-->
+   <!--     <span></span>-->
+   <!--     <span></span>-->
+   <!--     <span></span>-->
+   <!--   </a>-->
+   <!--   <ul class="cocreate-scroll display-inline-flex direction-rtl font-size-20px align-items-center list-style-type-none">-->
+   <!--   	<li><a class="fs-toggle"><i class="fas fa-expand" data-transform_to="fas fa-compress"></i></a></li>-->
+   <!--   	<li>-->
+   <!--   	   <a target="modal" href="render.html"-->
+   <!--         	 data-pass_collection="modules"-->
+   <!--         	 data-pass_module_id="" -->
+   <!--         	 data-pass_prefix="" -->
+   <!--         	 data-pass_to="builder" -->
+   <!--            data-modal_width="100%"-->
+   <!--            class="sessionAdminUI_Id">-->
+   <!--         		<i class="fas fa-palette"></i>-->
+   <!--       		 <div data-pass_collection="modules"-->
+   <!--         		   data-pass_module_id=""-->
+   <!--         	     data-pass_prefix=""-->
+   <!--         		   data-pass_to="render"-->
+   <!--         		   class="sessionBuilderUI_Id">-->
+   <!--       		 </div>-->
+   <!--       </a>-->
+   <!--     </li>-->
+   <!-- 	  <li class="display-flex">-->
+		 <!--     <span class="cocreate-badge position-relative right-8px bottom-5px display-inline-flex border-radius-5px">4</span>	-->
+   <!--       <a target="modal" href="render.html" data-pass_collection="modules" data-pass_prefix="datatable_" data-pass_module_id="" data-pass_to="render" data-modal_width="100%" data-modal_height="100%" data-modal_color="#229954">-->
+   <!--         <i class="fas fa-history"></i>-->
+		 <!--     </a>-->
+   <!-- 	  </li>							     -->
+   <!--     <li class="display-flex">-->
+		 <!--     <span class="cocreate-badge position-relative right-8px bottom-5px display-inline-flex border-radius-5px">4</span>	-->
+  	<!--			<a target="modal" href="render.html" data-pass_collection="modules" data-pass_prefix="" data-pass_module_id="5dc846ebcddd6b0de2c40b80" data-pass_to="render" data-modal_width="100%" data-modal_height="100%" data-modal_color="#229954">-->
+   <!--       	 <i class="fa fa-calendar" aria-hidden="true"></i>-->
+  	<!--			</a>-->
+   <!-- 	  </li>-->
+   <!--   </ul>-->
       
-			<div class="avatar-wrapper margin-5px-tb margin-right-10px">
-        <a class="avatar round" target="modal" href="render.html" data-pass_collection="modules" data-pass_prefix="" data-pass_module_id="5dd010bccbc25f0cdb1a4d9f" data-pass_to="render" data-modal_width="300px" data-modal_height="375px" data-modal_color="#229954">
-        	<span data-collection="users" data-module_id="" name="name" class="sessionUser_Id first-letter avatar-name">B</span>
-        	<span data-collection="users" data-module_id="" name="profile_image" class="sessionUser_Id avatar-image">
-        	  <img src="/_static/Velazquez.jpg" onerror="this.style.display='none'"/>
-        	</span>
-        </a>
-        <div class="avatar-status off"></div>
-      </div>
-    </div>
+			<!--<div class="avatar-wrapper margin-5px-tb margin-right-10px">-->
+   <!--     <a class="avatar round" target="modal" href="render.html" data-pass_collection="modules" data-pass_prefix="" data-pass_module_id="5dd010bccbc25f0cdb1a4d9f" data-pass_to="render" data-modal_width="300px" data-modal_height="375px" data-modal_color="#229954">-->
+   <!--     	<span data-collection="users" data-module_id="" name="name" class="sessionUser_Id first-letter avatar-name">B</span>-->
+   <!--     	<span data-collection="users" data-module_id="" name="profile_image" class="sessionUser_Id avatar-image">-->
+   <!--     	  <img src="/_static/Velazquez.jpg" onerror="this.style.display='none'"/>-->
+   <!--     	</span>-->
+   <!--     </a>-->
+   <!--     <div class="avatar-status off"></div>-->
+   <!--   </div>-->
+   <!-- </div>-->
     
 		<div class="cocreate-container margin-0 cocreate-scroll"  data-main_content_id="content">
       <div id="charts" class="saveFetch" >
@@ -179,87 +180,12 @@
         organization_Id: '5de0387b12e200ea63204d6c'
       }
     </script>
-    <!--<script src="../../../js/CoCreateJS.min.js"></script>-->
-      <script src="https://server.cocreate.app/js/socket.io.js"></script>
-    <script src="https://server.cocreate.app/js/CoCreate.js"></script>
-    <!--<script src="https://server.cocreate.app/js/CoCreate-templating.js"></script>-->
-    <script src="https://server.cocreate.app/js/CoCreate-users.js"></script>
-    <script src="../../../js/CoCreate-savefetch.js"></script>
+
+    <!-- CoCreateJS -->
+    <script src="https://server.cocreate.app/CoCreateJS/dist/CoCreate.min.js"></script>
     
-    <script src="../../../js/CoCreate-sort.js"></script>
-    <script src="../../../js/CoCreate-floating-label.js"></script>
-    
-    <script src="../../../js/CoCreate-clone.js"></script>
-    <script src="../../../js/CoCreate-isotope.js"></script>
-    <script src="../../../js/CoCreate-interact.js"></script>
-    <script type="text/javascript" src="./chart-lib.js"></script>
+    <!-- CoCreate Chart -->
     <script type="text/javascript" src="./CoCreate-chart.js"></script>
-    <script>
-  
-    </script>
-  
+    
   </body>
 </html>
-<!--function getQuery(data) {
-  var query = new Object();
-  if (data['data-collection'] == 'module_activity' && data['module_id']) {
-    query['data-module_id'] = data['module_id'];
-  }
-  
-  var filters = data['filters'];
-  
-  for (var key in filters) {
-    var filter = filters[key];
-    
-    if (filter.type == 'array' && filter.value.length > 0) {
-      query[key] = {$in: filter.value};
-    } else if (filter.type == 'range') {
-      if (filter.value[0] && filter.value[1]) {
-        
-        query[key] = {$gte: filter.value[0], $lte: filter.value[1]}  
-        
-      } else if (filter.value[0]) {
-        
-        query[key] = {$gte: filter.value[0]};
-        
-      } else if (filter.value[1]) {
-        
-        query[key] = {$lte: filter.value[1]};
-        
-      }
-    }
-  }
-  
-  var exclusion = data['exclusion'];
-  if (exclusion) {
-    var name = exclusion['name'];
-    var value = exclusion['value'];
-    
-    query[name] = {$nin: value};
-  }
-  
-  return query;
-}
-
-function getSearch(results, searchKey) {
-  var tmp
-  if (typeof searchKey!== 'undefined') {
-        
-    tmp = results.filter(function(item) {
-    
-      for (var key in item) {
-        if (typeof item[key] == 'string') {
-          var value = item[key].toUpperCase();
-          if (value.indexOf(searchKey.toUpperCase()) > -1) return true;
-        }
-        
-      }
-      
-      return false;
-    })  
-  } else {
-    tmp = results;
-  }
-  
-  return tmp;
-}-->

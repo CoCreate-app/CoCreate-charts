@@ -170,7 +170,7 @@ CoCreateChartManager.prototype = {
   
   _initSocket: function() {
     let _this = this;
-    CoCreateSocket.listen('getDocumentList', function(data) {
+    CoCreateSocket.listen('readDocumentList', function(data) {
       // console.log(data);
       _this.fetchedData(data);
       
@@ -189,28 +189,28 @@ CoCreateChartManager.prototype = {
           var fetch_name = el_items[j].getAttribute("data-fetch_name");
           var operator = el_items[j].getAttribute("data-calculation");
           
-          var eObj = {
-            eId: {chart_idx: i, datasets_idx: ii, data_idx: j, name: fetch_name, operator: operator},
-            "data-collection": collect,
-            fetch_name: fetch_name,
-            filters:{}
-          }
-          
           var filters = this._createFilter(el_items[j]);
-
-          eObj.filters = filters;
-          eObj.eId.filters = filters;
-
-          console.log(eObj);
-          let json = {
-            "apiKey": config.apiKey,
-            "securityKey": config.securityKey,
-            "organization_id": config.organization_Id,
-            ...eObj
-          }
-  
-          CoCreateSocket.send('getDocumentList', json);
           
+          var eObj = {
+            "metadata": {
+              chart_idx: i, 
+              datasets_idx: ii, 
+              data_idx: j, name: 
+              fetch_name, 
+              operator: operator, 
+              filters: filters
+            },
+            "collection": collect,
+            "element": `${i}-${ii}`,
+            "operator": {
+              "filters": filters,
+              "orders": [],
+              "startIndex": 0,
+              "search": ""
+            }
+          }
+          CoCreate.readDocumentList(eObj)
+
         }
       }
     }
@@ -257,8 +257,8 @@ CoCreateChartManager.prototype = {
   },
 
   fetchedData: function(data) {
-    var info = data.eId;
-    var r_data = this.calcProcessing(data.result, info.name, info.operator);
+    var info = data.metadata;
+    var r_data = this.calcProcessing(data.data, info.name, info.operator);
     this.charts[info.chart_idx].setData(r_data, info.datasets_idx, info.data_idx);
   },
   
@@ -272,8 +272,9 @@ CoCreateChartManager.prototype = {
 
     for (var i = 0; i < data.length; i++) {
       if (data[i][key] != null) {
-        data_list.push(data[i][key]);
-        sum += data[i][key];
+        const number = isNaN(data[i][key]) ? 0 : Number(data[i][key]);
+        data_list.push(number);
+        sum += number
         cnt ++;
       }
     }
