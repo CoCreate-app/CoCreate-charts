@@ -113,14 +113,14 @@
           <canvas class="cocreate-chart" chart-type="bar" chart-options="" chart-labels="January, February, March, April, May, June, July" chart-title="Combine Chart">
             <div class="cocreate-chart-dataset" chart-dataset_type="line">
               <div data-fetch_collection="chart" data-fetch_name="Jan" data-calculation="sum">
-                <div data-filter_name="Jan" data-filter_value="0, 10" data-value_type="number" data-operator="range"></div>
+                <div data-filter_name="Jan" data-filter_value="0, 10" data-value_type="number" data-filter_operator="$range"></div>
               </div>
               <div data-fetch_collection="chart" data-fetch_name="Feb">
-                <div data-filter_name="permission" data-filter_value="read" data-operator="nin"></div>
-                <div data-filter_name="type" data-filter_value="leader" data-operator="in"></div>
+                <div data-filter_name="permission" data-filter_value="read" data-filter_operator="$nin"></div>
+                <div data-filter_name="type" data-filter_value="leader" data-filter_operator="$in"></div>
               </div>
               <div data-fetch_collection="chart" data-fetch_name="Mar">
-                <div data-filter_name="Mar" data-filter_value="-7" data-operator="eq" data-value_type="number"></div>
+                <div data-filter_name="Mar" data-filter_value="-7" data-filter_operator="$eq" data-value_type="number"></div>
               </div>
               <div data-fetch_collection="chart" data-fetch_name="Apr"></div>
               <div data-fetch_collection="chart" data-fetch_name="May"></div>

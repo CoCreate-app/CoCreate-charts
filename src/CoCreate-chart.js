@@ -223,7 +223,7 @@ CoCreateChartManager.prototype = {
     for (var i = 0; i < f_els.length; i++) {
       var f_name = f_els[i].getAttribute("data-filter_name");
       var f_value = f_els[i].getAttribute("data-filter_value");
-      var f_operator = f_els[i].getAttribute("data-operator");
+      var f_operator = f_els[i].getAttribute("data-filter_operator");
       var f_valueType = f_els[i].getAttribute("data-value_type");
       
       f_value = f_value.replace(/\s/g, '').split(',')
@@ -233,7 +233,7 @@ CoCreateChartManager.prototype = {
       }
       
       if (this.isEmpty(f_operator)) {
-        f_operator = "contain";
+        f_operator = "$contain";
       }
       
       if (this.isEmpty(f_valueType)) {
