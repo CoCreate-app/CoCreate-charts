@@ -209,7 +209,7 @@ CoCreateChartManager.prototype = {
               "search": ""
             }
           }
-          CoCreate.readDocumentList(eObj)
+          CoCreate.crud.readDocumentList(eObj)
 
         }
       }
