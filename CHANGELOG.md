@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.0.1...v1.1.0) (2021-04-11)
+
+
+### Features
+
+* Initial Release ([cd2395c](https://github.com/CoCreate-app/CoCreate-charts/commit/cd2395ca9209c6c35c9df1c676df2c88a3d5a053))
+
 ## [1.0.1](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.0.0...v1.0.1) (2021-03-29)
 
 
