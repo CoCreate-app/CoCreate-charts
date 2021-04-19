@@ -61,7 +61,7 @@
     "@cocreate/crud-client": "^1.0.3",
     "@cocreate/docs": "^1.0.3",
     "chart.js": "^2.9.3",
-    "mini-css-extract-plugin": "^1.4.1",
+    "mini-css-extract-plugin": "^1.5.0",
     "moment": "^2.29.1"
   }
 }
