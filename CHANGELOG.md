@@ -1,3 +1,12 @@
+## [1.1.1](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.1.0...v1.1.1) (2021-04-23)
+
+
+### Bug Fixes
+
+* add missing packages ([77010f2](https://github.com/CoCreate-app/CoCreate-charts/commit/77010f20705db1db47c017e5f41ca540e7c6e776))
+* ci and build process ([81685d8](https://github.com/CoCreate-app/CoCreate-charts/commit/81685d87418fd2d4b98bb6bcb8a8f5f66b976558))
+* npm publish and cdn deployment ([20cb2ab](https://github.com/CoCreate-app/CoCreate-charts/commit/20cb2ab88f5482ce05135bf1b9025e37522ebb32))
+
 # [1.1.0](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.0.1...v1.1.0) (2021-04-11)
 
 
