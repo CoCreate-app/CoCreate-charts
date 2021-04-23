@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.1.1...v1.1.2) (2021-04-23)
+
+
+### Bug Fixes
+
+* readme and documentation. Removed securitykeys ([5eeb201](https://github.com/CoCreate-app/CoCreate-charts/commit/5eeb201775d3c460cb0999338370b52cfa7645c9))
+
 ## [1.1.1](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.1.0...v1.1.1) (2021-04-23)
 
 
