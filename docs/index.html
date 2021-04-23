@@ -21,30 +21,40 @@
                 <div class="display:flex align-items:center">
                     <h2>CoCreate-charts</h2>
                 </div>
-                <div class="display:flex align-items:center font-size:20px social_share" data-height="600" data-width="500" data-media="https://via.placeholder.com/300/09f/fff.png">
+                <div class="display:flex align-items:center font-size:20px" data-share_height="600" data-share_width="500" data-share_media="https://via.placeholder.com/300/09f/fff.png">
                     <a href="https://github.com/CoCreate-app/CoCreate-charts" target="_blank" class="margin-right:15px"><i class="fab fa-github"></i></a>
-                    <a class="margin-right:15px share" data-network='twitter' title="Share on twitter"><i class="fab fa-twitter"></i></a>
-                    <a class="margin-right:15px share" data-network='facebook' title="Share on Facebook"><i class="fab fa-facebook"></i></a>
-                    <a class="margin-right:15px share" data-network='instagram' title="Share on instagram"><i class="fab fa-instagram"></i></a>
-                    <a class="margin-right:15px share" data-network='share' title="Share on share"><i class="fas fa-share-alt"></i></a>
+                    <a class="margin-right:15px" data-share_network='twitter' title="Share on twitter"><i class="fab fa-twitter"></i></a>
+                    <a class="margin-right:15px" data-share_network='facebook' title="Share on Facebook"><i class="fab fa-facebook"></i></a>
+                    <a class="margin-right:15px" data-share_network='instagram' title="Share on instagram"><i class="fab fa-instagram"></i></a>
+                    <a class="margin-right:15px" data-share_network='share' title="Share on share"><i class="fas fa-share-alt"></i></a>
                 </div>
             </div>
             <p class="max-width:500px margin:20px_0px">A simple HTML5, CSS and pure javascript component. Easy configuration using data-attributes and highly styleable.</p>
             <div id="xxxxx-section" class="display:flex flex-wrap:wrap">
                 <div class="flex-grow:1 width:300px padding:0px_10px margin:20px_0px">
     
-                <h2 class="border-bottom:1px_solid_lightgrey padding:5px_0px">Install</h2>
-                <pre><code class="language-javascript">npm install cocreate-charts</code></pre>
+                <div id="charts-install" class="border-bottom:1px_solid_lightgrey">
+                        <span class="display:flex align-items:center" data-hover="display:block!important" data-hover_target='[href="#charts-install"]'>
+                            <h2 class="padding:5px_0px">Install</h2>
+                            <a class="margin-left:10px display:none" href="#charts-install"><i class="fas fa-link"></i></a>
+                        </span>
+                    </div>
+                <pre><code class="language-bash">npm i @cocreate/charts</code></pre>
                 <p class="padding:10px_0px">Or you can use cdn link:</p>
-                <pre><code class="language-javascript">https://cdn.cocreate.app/CoCreate-charts.min.js</code></pre>
+                <pre><code class="language-html">&lt;script&gt;https://cdn.cocreate.app/charts/latest/CoCreate-charts.min.js&lt;/script&gt;</code></pre>
 
-                <h2 class="border-bottom:1px_solid_lightgrey margin-top:80px padding:5px_0px">Usage</h2>
+                <div id="charts-usage" class="margin-top:80px border-bottom:1px_solid_lightgrey">
+                        <span class="display:flex align-items:center" data-hover="display:block!important" data-hover_target='[href="#charts-usage"]'>
+                            <h2 class="padding:5px_0px">Usage</h2>
+                            <a class="margin-left:10px display:none" href="#charts-usage"><i class="fas fa-link"></i></a>
+                        </span>
+                    </div>
                     <div class="">
                         <p class="padding:10px_0px">This is xxxxx reference</p>
                 
                         <div class="flex-grow:1 min-width:300px width:100%">
                             <pre>
-                        <code>
+                        <code class="language-js">
 &lt;canvas class="cocreate-chart" chart-type="bar" chart-options="" chart-labels="January, February, March, April, May, June, July" chart-title="Combine Chart"&gt;
     &lt;div class="cocreate-chart-dataset" chart-dataset_type="line"&gt;
       &lt;div data-fetch_collection="chart" data-fetch_name="Jan" data-calculation="sum"&gt;
@@ -69,7 +79,12 @@
                         <p class="padding:10px_0px">This is xxxxx reference</p>
                         <p class="padding:10px_0px">This is xxxxx reference</p>
                     </div>
-                    <h2 class="border-bottom:1px_solid_lightgrey padding:5px_0px">Attributes</h2>
+                    <div id="charts-attributes" class="margin-top:80px border-bottom:1px_solid_lightgrey">
+                        <span class="display:flex align-items:center" data-hover="display:block!important" data-hover_target='[href="#charts-attributes"]'>
+                            <h2 class="padding:5px_0px">Attributes</h2>
+                            <a class="margin-left:10px display:none" href="#charts-attributes"><i class="fas fa-link"></i></a>
+                        </span>
+                    </div>
                     <ul class="list-style-type:none ">
                         <li class="padding:15px_0px border-bottom:1px_solid_lightgrey">
                             <h4><span>chart-type</span> <span class="cocreate-badge success">string</span> <span class="cocreate-badge warning">optional</span></h4>
@@ -96,7 +111,12 @@
                 
                 <div class="flex-grow:1 width:300px padding:0px_10px margin:20px_0px  border-bottom:1px_solid_lightgrey">
                     <!-- SandBox -->
-                    <h2 class="border-bottom:1px_solid_lightgrey padding:5px_0px">Demo</h2>
+                    <div id="charts-demo" class="border-bottom:1px_solid_lightgrey">
+                        <span class="display:flex align-items:center" data-hover="display:block!important" data-hover_target='[href="#charts-demo"]'>
+                            <h2 class="padding:5px_0px">Demo</h2>
+                            <a class="margin-left:10px display:none" href="#charts-demo"><i class="fas fa-link"></i></a>
+                        </span>
+                    </div>
                     <div class="position:sticky top:0 padding:15px_0px height:100vh">
     			    <div class="container svColumn overflow:hidden card border-radius:2px width:auto height:100%" id="form-sandbox">
     			       <div class="font-size:20px position:absolute top:10px right:10px opacity:0.6 z-index:7">
