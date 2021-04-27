@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.1.3...v1.1.4) (2021-04-27)
+
+
+### Bug Fixes
+
+* add host in docs ([c15cafc](https://github.com/CoCreate-app/CoCreate-charts/commit/c15cafc5ab2a0dc7b37d8651cc978ece9d7bc923))
+
 ## [1.1.3](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.1.2...v1.1.3) (2021-04-27)
 
 
