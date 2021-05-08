@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.1.4...v1.1.5) (2021-05-08)
+
+
+### Bug Fixes
+
+* add css auto parse and save to docs. ([433e5be](https://github.com/CoCreate-app/CoCreate-charts/commit/433e5be8f2ac1c31bfc0c06979b90e2ae176d89b))
+
 ## [1.1.4](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.1.3...v1.1.4) (2021-04-27)
 
 
