@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.1.5...v1.1.6) (2021-06-16)
+
+
+### Bug Fixes
+
+* added header for seo ([8b54e36](https://github.com/CoCreate-app/CoCreate-charts/commit/8b54e3627bc65d602edef858a86b1a892e3dace4))
+
 ## [1.1.5](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.1.4...v1.1.5) (2021-05-08)
 
 
