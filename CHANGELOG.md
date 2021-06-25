@@ -1,3 +1,10 @@
+## [1.1.9](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.1.8...v1.1.9) (2021-06-25)
+
+
+### Bug Fixes
+
+* latest version numbers applied to all cocreate packages ([6a283f9](https://github.com/CoCreate-app/CoCreate-charts/commit/6a283f9aeb5e5599c169feebaef96cb015d8adb2))
+
 ## [1.1.8](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.1.7...v1.1.8) (2021-06-24)
 
 
