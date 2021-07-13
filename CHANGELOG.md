@@ -1,3 +1,11 @@
+## [1.1.13](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.1.12...v1.1.13) (2021-07-13)
+
+
+### Bug Fixes
+
+* add yarn lockfile to git ignore ([1e130f4](https://github.com/CoCreate-app/CoCreate-charts/commit/1e130f4fef861f5442248ef2df27611e7f9faaaa))
+* remove yarn.lock ([8dd1b52](https://github.com/CoCreate-app/CoCreate-charts/commit/8dd1b52ccf5aa6842b0273138823ff079684423c))
+
 ## [1.1.12](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.1.11...v1.1.12) (2021-07-10)
 
 
