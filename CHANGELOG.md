@@ -1,3 +1,10 @@
+## [1.1.15](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.1.14...v1.1.15) (2021-07-17)
+
+
+### Bug Fixes
+
+* workflows ([e7d8aaf](https://github.com/CoCreate-app/CoCreate-charts/commit/e7d8aafe3c31748f5ff78c3ec34f389c56658c62))
+
 ## [1.1.14](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.1.13...v1.1.14) (2021-07-14)
 
 
