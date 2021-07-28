@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.1.15...v1.2.0) (2021-07-28)
+
+
+### Bug Fixes
+
+* remove data- from fetch, pass and filter ([9b1ad60](https://github.com/CoCreate-app/CoCreate-charts/commit/9b1ad60639811eaa4bd8eafbb94cc2fa54101210))
+
+
+### Features
+
+* add new is{attribute} system and remove data- from attributtes ([b769251](https://github.com/CoCreate-app/CoCreate-charts/commit/b7692511f6422b0a4f4710edb8a697f226bc1e8e))
+
 ## [1.1.15](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.1.14...v1.1.15) (2021-07-17)
 
 
