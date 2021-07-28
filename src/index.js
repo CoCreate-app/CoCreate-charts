@@ -192,8 +192,8 @@ CoCreateChartManager.prototype = {
         let el_items = this.charts[i].datasets_el[ii].children;
       
         for (var j = 0; j < el_items.length; j++) {
-          var collect = el_items[j].getAttribute("data-fetch_collection");
-          var fetch_name = el_items[j].getAttribute("data-fetch_name");
+          var collect = el_items[j].getAttribute("fetch-collection");
+          var fetch_name = el_items[j].getAttribute("fetch-name");
           var operator = el_items[j].getAttribute("data-calculation");
           
           var filters = this._createFilter(el_items[j]);
@@ -228,9 +228,9 @@ CoCreateChartManager.prototype = {
     var filters=[];
     
     for (var i = 0; i < f_els.length; i++) {
-      var f_name = f_els[i].getAttribute("data-filter_name");
-      var f_value = f_els[i].getAttribute("data-filter_value");
-      var f_operator = f_els[i].getAttribute("data-filter_operator");
+      var f_name = f_els[i].getAttribute("filter-name");
+      var f_value = f_els[i].getAttribute("filter-value");
+      var f_operator = f_els[i].getAttribute("filter-operator");
       var f_valueType = f_els[i].getAttribute("data-value_type");
       
       f_value = f_value.replace(/\s/g, '').split(',')
