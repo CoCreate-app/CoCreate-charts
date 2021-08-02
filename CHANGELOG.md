@@ -1,3 +1,11 @@
+## [1.2.1](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.2.0...v1.2.1) (2021-08-02)
+
+
+### Bug Fixes
+
+* remove data- from attributes ([b6a61c1](https://github.com/CoCreate-app/CoCreate-charts/commit/b6a61c116a4479258050e1776c5d46b79a93db84))
+* update data-fullscreen to fullscreen ([e2ab476](https://github.com/CoCreate-app/CoCreate-charts/commit/e2ab47691d2603fa2203772a76c7a6a325f2a18d))
+
 # [1.2.0](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.1.15...v1.2.0) (2021-07-28)
 
 
