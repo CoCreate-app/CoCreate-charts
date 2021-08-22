@@ -1,3 +1,10 @@
+## [1.2.6](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.2.5...v1.2.6) (2021-08-22)
+
+
+### Bug Fixes
+
+* removed data- from main-content, clone, filter-value_type ([a5f0e3b](https://github.com/CoCreate-app/CoCreate-charts/commit/a5f0e3b80894e0d3583549fb21be09be6b9351f6))
+
 ## [1.2.5](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.2.4...v1.2.5) (2021-08-22)
 
 
