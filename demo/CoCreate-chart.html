@@ -47,7 +47,7 @@
 
     <body translate="no">
 
-        <div class="margin-0 overflow:overlay" data-main_content_id="content">
+        <div class="margin-0 overflow:overlay" main-content_id="content">
             <div id="charts" class="saveFetch">
                 <div class="Sortable isotope-grid resize-grid" dnd-group-name="dashboard">
                     <div class="margin:5px border-radius-2px flex-grow-1 grid-item">
@@ -55,14 +55,14 @@
                         <canvas class="cocreate-chart" chart-type="bar" chart-options="" chart-labels="January, February, March, April, May, June, July" chart-title="New Combine Chart">
                             <div class="cocreate-chart-dataset" chart-dataset_type="line">
                                 <div fetch-collection="chart" fetch-name="Jan" data-calculation="sum">
-                                    <div filter-name="Jan" filter-value="0, 10" data-value_type="number" filter-operator="$range"></div>
+                                    <div filter-name="Jan" filter-value="0, 10" filter-value_type="number" filter-operator="$range"></div>
                                 </div>
                                 <div fetch-collection="chart" fetch-name="Feb">
                                     <div filter-name="permission" filter-value="read" filter-operator="$nin"></div>
                                     <div filter-name="type" filter-value="leader" filter-operator="$in"></div>
                                 </div>
                                 <div fetch-collection="chart" fetch-name="Mar">
-                                    <div filter-name="Mar" filter-value="-7" filter-operator="$eq" data-value_type="number"></div>
+                                    <div filter-name="Mar" filter-value="-7" filter-operator="$eq" filter-value_type="number"></div>
                                 </div>
                                 <div fetch-collection="chart" fetch-name="Apr"></div>
                                 <div fetch-collection="chart" fetch-name="May"></div>

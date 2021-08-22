@@ -231,7 +231,7 @@ CoCreateChartManager.prototype = {
       var f_name = f_els[i].getAttribute("filter-name");
       var f_value = f_els[i].getAttribute("filter-value");
       var f_operator = f_els[i].getAttribute("filter-operator");
-      var f_valueType = f_els[i].getAttribute("data-value_type");
+      var f_valueType = f_els[i].getAttribute("filter-value_type");
       
       f_value = f_value.replace(/\s/g, '').split(',')
 
