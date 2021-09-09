@@ -1,3 +1,10 @@
+## [1.2.12](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.2.11...v1.2.12) (2021-09-09)
+
+
+### Bug Fixes
+
+* CoCreate.config directory, path, name and  public ([8cd9ce2](https://github.com/CoCreate-app/CoCreate-charts/commit/8cd9ce20fc80ebe894a44814aed651ddcf548d89))
+
 ## [1.2.11](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.2.10...v1.2.11) (2021-09-08)
 
 
