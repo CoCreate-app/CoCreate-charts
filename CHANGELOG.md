@@ -1,3 +1,10 @@
+## [1.2.18](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.2.17...v1.2.18) (2021-09-14)
+
+
+### Bug Fixes
+
+* add cocreate.app to domains ([c3fd80c](https://github.com/CoCreate-app/CoCreate-charts/commit/c3fd80cda0010a16affadf0aae9a15f94737fd4a))
+
 ## [1.2.17](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.2.16...v1.2.17) (2021-09-13)
 
 
