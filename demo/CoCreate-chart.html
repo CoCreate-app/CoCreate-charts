@@ -53,7 +53,7 @@
                     <div class="margin:5px border-radius-2px flex-grow-1 grid-item">
 
                         <canvas class="cocreate-chart" chart-type="bar" chart-options="" chart-labels="January, February, March, April, May, June, July" chart-title="New Combine Chart">
-                            <div class="cocreate-chart-dataset" chart-dataset_type="line">
+                            <div class="cocreate-chart-dataset" chart-dataset_type="line" chart-dataset_label="Sum Chart">
                                 <div fetch-collection="chart" fetch-name="Jan" data-calculation="sum">
                                     <div filter-name="Jan" filter-value="0, 10" filter-value_type="number" filter-operator="$range"></div>
                                 </div>
@@ -93,22 +93,21 @@
 
                     <div class="margin:5px border-radius-2px flex-grow-1 grid-item">
                         <canvas class="cocreate-chart" chart-type="line" chart-options="" chart-labels="January, February, March, April, May, June, July" chart-title="Combine Chart">
-<div class="cocreate-chart-dataset" chart-dataset_label="Sum Chart" chart-dataset_type="line">
-<div class="cocreate-chart-dataset">
-<div fetch-collection="chart" fetch-name="Jan">
-<div filter-name="status" value="completed" filter-type="array"></div>
-<div filter-name="stage" value="open" filter-type="array"></div>
-<div filter-name="Jan" value="0,10" filter-type="range"></div>
-<div filter-name="status" value="finished" filter-type="array" dnd-exclude="true"></div>
-</div>
-<div fetch-collection="chart" fetch-name="Feb"></div>
-<div fetch-collection="chart" fetch-name="Mar"></div>
-<div fetch-collection="chart" fetch-name="Apr"></div>
-<div fetch-collection="chart" fetch-name="May"></div>
-<div fetch-collection="chart" fetch-name="Jun"></div>
-<div fetch-collection="chart" fetch-name="Jul"></div>
-</div>
-</canvas>
+                            <div class="cocreate-chart-dataset" chart-dataset_label="Sum Chart" chart-dataset_type="line">
+                                <div fetch-collection="chart" fetch-name="Jan">
+                                    <div filter-name="status" value="completed" filter-type="array"></div>
+                                    <div filter-name="stage" value="open" filter-type="array"></div>
+                                    <div filter-name="Jan" value="0,10" filter-type="range"></div>
+                                    <div filter-name="status" value="finished" filter-type="array" dnd-exclude="true"></div>
+                                </div>
+                                <div fetch-collection="chart" fetch-name="Feb"></div>
+                                <div fetch-collection="chart" fetch-name="Mar"></div>
+                                <div fetch-collection="chart" fetch-name="Apr"></div>
+                                <div fetch-collection="chart" fetch-name="May"></div>
+                                <div fetch-collection="chart" fetch-name="Jun"></div>
+                                <div fetch-collection="chart" fetch-name="Jul"></div>
+                            </div>
+                        </canvas>
                     </div>
                 </div>
             </div>
@@ -123,12 +122,8 @@
                 }
             </script>
 
-            <!-- CoCreateJS -->
             <!--<script src="https://cdn.cocreate.app/latest/CoCreate.min.js" ></script>-->
-            <script src="https://server.cocreate.app/CoCreateJS/dist/CoCreate.js"></script>
-
-            <!-- CoCreate Chart -->
-            <!-- <script type="text/javascript" src="../dist/CoCreate-charts.js"></script>-->
+            <script src="../../../CoCreateJS/dist/CoCreate.js"></script>
 
     </body>
 
