@@ -1,3 +1,10 @@
+## [1.2.33](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.2.32...v1.2.33) (2021-10-16)
+
+
+### Bug Fixes
+
+* update socket package to fix bug in docs ([da8e0ab](https://github.com/CoCreate-app/CoCreate-charts/commit/da8e0ab7cf24d29636c3a02898ce64520066c471))
+
 ## [1.2.32](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.2.31...v1.2.32) (2021-10-15)
 
 
