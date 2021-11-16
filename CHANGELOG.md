@@ -1,3 +1,10 @@
+## [1.2.42](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.2.41...v1.2.42) (2021-11-16)
+
+
+### Bug Fixes
+
+* update dependencies ([f006337](https://github.com/CoCreate-app/CoCreate-charts/commit/f00633797347c00ed8ca0ec1513e49807843ae23))
+
 ## [1.2.41](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.2.40...v1.2.41) (2021-11-15)
 
 
