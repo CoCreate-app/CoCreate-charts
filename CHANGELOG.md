@@ -1,3 +1,10 @@
+## [1.2.54](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.2.53...v1.2.54) (2021-12-23)
+
+
+### Bug Fixes
+
+* renamed filter-value_type to filter-value-type ([d2a44a3](https://github.com/CoCreate-app/CoCreate-charts/commit/d2a44a378b83c965aa2243b76b41b747f79100b4))
+
 ## [1.2.53](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.2.52...v1.2.53) (2021-12-15)
 
 
