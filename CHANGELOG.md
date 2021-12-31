@@ -1,3 +1,10 @@
+## [1.2.57](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.2.56...v1.2.57) (2021-12-31)
+
+
+### Bug Fixes
+
+* removed class chart-dataset ([e698304](https://github.com/CoCreate-app/CoCreate-charts/commit/e6983042de1e0435c6283f8d9340602cf0822695))
+
 ## [1.2.56](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.2.55...v1.2.56) (2021-12-31)
 
 
