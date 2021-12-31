@@ -68,8 +68,8 @@
                             <pre>
                         <code class="language-html">
 &lt;canvas class="cocreate-chart" chart-type="bar" chart-options="" chart-labels="January, February, March, April, May, June, July" chart-title="Combine Chart"&gt;
-    &lt;div class="cocreate-chart-dataset" chart-dataset_type="line"&gt;
-      &lt;div fetch-collection="chart" fetch-name="Jan" data-calculation="sum"&gt;
+    &lt;div class="chart-dataset" chart-dataset-type="line"&gt;
+      &lt;div fetch-collection="chart" fetch-name="Jan" chart-operator="sum"&gt;
         &lt;div filter-name="Jan" filter-value="0, 10" filter-value-type="number" data-operator="range"&gt;&lt;/div&gt;
       &lt;/div&gt;
       &lt;div fetch-collection="chart" fetch-name="Feb"&gt;
@@ -115,7 +115,7 @@
                             <p>Chart title</p>
                         </li>
                         <li class="padding:15px_0px border-bottom:1px_solid_lightgrey">
-                            <h4><span>chart-dataset_type</span> <span class="cocreate-badge success">string</span> <span class="cocreate-badge warning">optional</span></h4>
+                            <h4><span>chart-dataset-type</span> <span class="cocreate-badge success">string</span> <span class="cocreate-badge warning">optional</span></h4>
                             <p>Chart dataset type</p>
                         </li>
                     </ul>

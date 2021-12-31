@@ -6,11 +6,9 @@
  */
 
 "use strict";
-import moment from 'moment';
+// import moment from 'moment';
 import crud from '@cocreate/crud-client';
-import {
-  Chart
-} from 'chart.js';
+import { Chart } from 'chart.js';
 
 function CoCreateChart(el) {
   this.el = el;
@@ -27,7 +25,6 @@ function CoCreateChart(el) {
   
   this.datasets = [];
   this.COLORS = [
-
     '#4dc9f6',
   	'#f67019',
   	'#f53794',
@@ -40,7 +37,6 @@ function CoCreateChart(el) {
   ]
   
   this.chart = null;
-  
   this._init(el);
   this.createChart();
 }
@@ -68,14 +64,14 @@ CoCreateChart.prototype = {
 
     var nCnt = this.labels.length;
     
-    this.datasets_el = el.querySelectorAll(".cocreate-chart-dataset");
+    this.datasets_el = el.querySelectorAll(".chart-dataset");
     for (var i = 0; i < this.datasets_el.length; i++) {
       this.datasets.push(this._createDataSet(this.datasets_el[i], i, nCnt));
     }
     
     var single_charts = ["pie", "polarArea", "doughnut"];
     
-    let label = this.datasets_el[0].getAttribute("chart-dataset_label");
+    let label = this.datasets_el[0].getAttribute("chart-dataset-label");
     if (this.datasets_el.length == 1 && this.isEmpty(label) && !single_charts.includes(this.type)) {
       this.chartOptions.legend = {
         display: false
@@ -87,8 +83,8 @@ CoCreateChart.prototype = {
   _createDataSet: function(el, idx, n) {
     var data = []
     var color = this.COLORS[idx % this.COLORS.length];
-    var label = el.getAttribute("chart-dataset_label");
-    var type = el.getAttribute("chart-dataset_type");
+    var label = el.getAttribute("chart-dataset-label");
+    var type = el.getAttribute("chart-dataset-type");
     var dataset_info = {};
     console.log(Chart)
     var bgColor = Chart.helpers.color(color).alpha(0.5).rgbString();
@@ -194,7 +190,7 @@ CoCreateChartManager.prototype = {
         for (var j = 0; j < el_items.length; j++) {
           var collect = el_items[j].getAttribute("fetch-collection");
           var fetch_name = el_items[j].getAttribute("fetch-name");
-          var operator = el_items[j].getAttribute("data-calculation");
+          var operator = el_items[j].getAttribute("chart-operator");
           
           var filters = this._createFilter(el_items[j]);
           

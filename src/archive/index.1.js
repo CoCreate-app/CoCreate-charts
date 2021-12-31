@@ -66,14 +66,14 @@ CoCreateChart.prototype = {
 
     var nCnt = this.labels.length;
     
-    this.datasets_el = el.querySelectorAll(".cocreate-chart-dataset");
+    this.datasets_el = el.querySelectorAll(".chart-dataset");
     for (var i = 0; i < this.datasets_el.length; i++) {
       this.datasets.push(this._createDataSet(this.datasets_el[i], i, nCnt));
     }
     
     var single_charts = ["pie", "polarArea", "doughnut"];
     
-    let label = this.datasets_el[0].getAttribute("chart-dataset_label");
+    let label = this.datasets_el[0].getAttribute("chart-dataset-label");
     if (this.datasets_el.length == 1 && this.isEmpty(label) && !single_charts.includes(this.type)) {
       this.chartOptions.legend = {
         display: false
@@ -85,8 +85,8 @@ CoCreateChart.prototype = {
   _createDataSet: function(el, idx, n) {
     var data = []
     var color = this.COLORS[idx % this.COLORS.length];
-    var label = el.getAttribute("chart-dataset_label");
-    var type = el.getAttribute("chart-dataset_type");
+    var label = el.getAttribute("chart-dataset-label");
+    var type = el.getAttribute("chart-dataset-type");
     var dataset_info = {};
     var bgColor = Chart.helpers.color(color).alpha(0.5).rgbString();
     
@@ -189,7 +189,7 @@ CoCreateChartManager.prototype = {
         for (var j = 0; j < el_items.length; j++) {
           var collect = el_items[j].getAttribute("data-fetch_collection");
           var fetch_name = el_items[j].getAttribute("data-fetch_name");
-          var operator = el_items[j].getAttribute("data-calculation");
+          var operator = el_items[j].getAttribute("chart-operator");
           
           var filters = this._createFilter(el_items[j]);
           
