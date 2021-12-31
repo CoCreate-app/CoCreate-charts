@@ -64,7 +64,7 @@ CoCreateChart.prototype = {
 
     var nCnt = this.labels.length;
     
-    this.datasets_el = el.querySelectorAll(".chart-dataset");
+    this.datasets_el = el.querySelectorAll("[chart-dataset-type], [chart-dataset-label]");
     for (var i = 0; i < this.datasets_el.length; i++) {
       this.datasets.push(this._createDataSet(this.datasets_el[i], i, nCnt));
     }
