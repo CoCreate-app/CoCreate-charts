@@ -164,7 +164,7 @@ function CoCreateChartManager() {
 
 CoCreateChartManager.prototype = {
   _createCharts: function() {
-    var els = document.querySelectorAll("canvas.cocreate-chart");
+    var els = document.querySelectorAll("[chart='chartjs']");
     for (var i = 0; i < els.length; i++) {
       this.charts.push(new CoCreateChart(els[i]));
     }
