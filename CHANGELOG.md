@@ -1,3 +1,10 @@
+## [1.2.56](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.2.55...v1.2.56) (2021-12-31)
+
+
+### Bug Fixes
+
+* added chart=chartjs as a selector. cleaned demo ([4319d51](https://github.com/CoCreate-app/CoCreate-charts/commit/4319d51fbfe4649ecbead19267fabe2e14523df7))
+
 ## [1.2.55](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.2.54...v1.2.55) (2021-12-31)
 
 
