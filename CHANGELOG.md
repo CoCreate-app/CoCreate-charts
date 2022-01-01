@@ -1,3 +1,10 @@
+## [1.2.59](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.2.58...v1.2.59) (2022-01-01)
+
+
+### Bug Fixes
+
+* get-value attribute value now supports a selector added # to all values currently in get-value attributes ([87292b7](https://github.com/CoCreate-app/CoCreate-charts/commit/87292b73471a3ac54fba3315caafe5e09155650c))
+
 ## [1.2.58](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.2.57...v1.2.58) (2022-01-01)
 
 
