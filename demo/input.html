@@ -20,54 +20,54 @@
     document_id=""
     name="Jan"
     placeholder="January"
-    class="floating-label data-input"> 
+    class="floating-label"> 
   
   <input type="number"
     document_id=""
     name="Feb"
     placeholder="February"
-    class="floating-label data-input"> 
+    class="floating-label"> 
   
   <input type="number"
     document_id=""
     name="Mar"
     placeholder="March"
-    class="floating-label data-input">        
+    class="floating-label">        
   
   <input type="number"
     document_id=""
     name="Apr"
     placeholder="April"
-    class="floating-label data-input"> 
+    class="floating-label"> 
     
   <input type="number"
     document_id=""
     name="May"
     placeholder="May"
-    class="floating-label data-input"> 
+    class="floating-label"> 
   <input type="number" 
     document_id=""
     name="Jun"
     placeholder="June"
-    class="floating-label data-input"> 
+    class="floating-label"> 
   <input type="number" 
     document_id=""
     name="Jul"
     placeholder="July"
-    class="floating-label data-input">
+    class="floating-label">
   
   <input type="hidden" 
     name="module_id"
     value="5deb167e189f212c8ebd0137"
     >
-  <!--<div data-array_name='permission'  document_id='' class="arrayField">-->
+  <!--<div document_id=''>-->
   <!--  <input type="checkbox" value="create"><label>create</label><br>-->
   <!--  <input type="checkbox" value="read"><label>read</label><br>-->
   <!--  <input type="checkbox" value="update"><label>update</label><br>-->
   <!--  <input type="checkbox" value="delete"><label>delete</label><br>-->
   <!--</div>-->
   
-  <!--<select data-array_name="type" document_id="" class="arrayField">-->
+  <!--<select document_id="">-->
   <!--  <option value="leader">Lead</option>-->
   <!--  <option value="customer">Customer</option>-->
   <!--</select> -->
@@ -88,7 +88,7 @@
     <!--    <p class="padding-20-lr" document_id="" name="Jan"></h5>-->
     <!--  </div>-->
     
-    <!--<button class="loadMore" data-engine_id="example">Load More</button>-->
+    <!--<button class="loadMore" template_id="example">Load More</button>-->
   
 
 <script>
@@ -109,7 +109,7 @@
     return Math.floor(Math.random() * 200) - 100;
   }
   
-  var els = document.querySelectorAll(".data-input");
+  var els = document.querySelectorAll(".random-data");
   
   for (var  i = 0; i < els.length; i++) {
     var number = generateRandomData();
