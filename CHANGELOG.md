@@ -1,3 +1,10 @@
+## [1.2.58](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.2.57...v1.2.58) (2022-01-01)
+
+
+### Bug Fixes
+
+* removed data- from attributes ([8d41ce9](https://github.com/CoCreate-app/CoCreate-charts/commit/8d41ce90e3f838bc54e1079a4d3c87c85de4210c))
+
 ## [1.2.57](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.2.56...v1.2.57) (2021-12-31)
 
 
