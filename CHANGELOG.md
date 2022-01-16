@@ -1,3 +1,10 @@
+## [1.2.60](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.2.59...v1.2.60) (2022-01-16)
+
+
+### Bug Fixes
+
+* update class overflow:overlay to overflow:auto ([f94ccfb](https://github.com/CoCreate-app/CoCreate-charts/commit/f94ccfb2602b6a376052d6884dfd0970f9865992))
+
 ## [1.2.59](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.2.58...v1.2.59) (2022-01-01)
 
 
