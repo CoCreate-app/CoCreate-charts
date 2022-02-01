@@ -59,8 +59,8 @@
     "webpack-log": "^3.0.1"
   },
   "dependencies": {
-    "@cocreate/crud-client": "^1.4.40",
-    "@cocreate/docs": "^1.2.62",
+    "@cocreate/crud-client": "^1.4.43",
+    "@cocreate/docs": "^1.2.65",
     "chart.js": "^2.9.3",
     "mini-css-extract-plugin": "^1.5.0",
     "moment": "^2.29.1"
