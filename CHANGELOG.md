@@ -1,3 +1,10 @@
+## [1.2.62](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.2.61...v1.2.62) (2022-02-03)
+
+
+### Bug Fixes
+
+* replaced show and hide class hidden with attribute hidden ([b734471](https://github.com/CoCreate-app/CoCreate-charts/commit/b734471a1d05968034680418406c551474ca5140))
+
 ## [1.2.61](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.2.60...v1.2.61) (2022-02-01)
 
 
