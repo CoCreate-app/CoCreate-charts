@@ -1,3 +1,10 @@
+## [1.2.67](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.2.66...v1.2.67) (2022-03-21)
+
+
+### Bug Fixes
+
+* update class sortable to attribute sortable ([686f5a2](https://github.com/CoCreate-app/CoCreate-charts/commit/686f5a297a98b80c19b11467d71afd53e80185df))
+
 ## [1.2.66](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.2.65...v1.2.66) (2022-02-24)
 
 
