@@ -1,3 +1,10 @@
+## [1.2.68](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.2.67...v1.2.68) (2022-05-06)
+
+
+### Bug Fixes
+
+* update config organization_Id to organization_id ([03828b8](https://github.com/CoCreate-app/CoCreate-charts/commit/03828b81378638c00b75dfd430d9705fd16d90e9))
+
 ## [1.2.67](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.2.66...v1.2.67) (2022-03-21)
 
 
