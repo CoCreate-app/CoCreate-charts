@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.2.68...v1.3.0) (2022-05-14)
+
+
+### Features
+
+* function readDocumentList has been renamed to readDocuments ([15bcded](https://github.com/CoCreate-app/CoCreate-charts/commit/15bcdedbab9b40a751c3d84716d0f38f17d1421b))
+
 ## [1.2.68](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.2.67...v1.2.68) (2022-05-06)
 
 
