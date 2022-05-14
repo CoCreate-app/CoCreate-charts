@@ -172,8 +172,8 @@ CoCreateChartManager.prototype = {
   
   _initSocket: function() {
     let _this = this;
-    //CoCreateSocket.listen('readDocumentList', function(data) {
-    crud.listen('readDocumentList', function(data) {
+    //CoCreateSocket.listen('readDocuments', function(data) {
+    crud.listen('readDocuments', function(data) {
       // console.log(data);
       _this.fetchedData(data);
       
@@ -212,7 +212,7 @@ CoCreateChartManager.prototype = {
               "search": ""
             }
           }
-          crud.readDocumentList(eObj)
+          crud.readDocuments(eObj)
 
         }
       }
