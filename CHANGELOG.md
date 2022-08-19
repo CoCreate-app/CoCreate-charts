@@ -1,3 +1,10 @@
+## [1.3.5](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.3.4...v1.3.5) (2022-08-19)
+
+
+### Bug Fixes
+
+* renamed order-by and order-type to filter-order-name and filter-order-type ([411aac6](https://github.com/CoCreate-app/CoCreate-charts/commit/411aac6309e5e9b0fd9eee71f2485de1d8c86627))
+
 ## [1.3.4](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.3.3...v1.3.4) (2022-06-18)
 
 
