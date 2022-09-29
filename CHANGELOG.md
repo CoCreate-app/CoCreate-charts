@@ -1,3 +1,10 @@
+## [1.3.7](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.3.6...v1.3.7) (2022-09-29)
+
+
+### Bug Fixes
+
+* config renameed to CoCreateConfig ([219020e](https://github.com/CoCreate-app/CoCreate-charts/commit/219020e1601fa1905cdbbe4d6c08a5c6fc69f520))
+
 ## [1.3.6](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.3.5...v1.3.6) (2022-09-01)
 
 
