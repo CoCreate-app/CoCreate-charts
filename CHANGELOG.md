@@ -1,3 +1,10 @@
+## [1.3.14](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.3.13...v1.3.14) (2022-10-02)
+
+
+### Bug Fixes
+
+* bump @cocreate/hosting and @cocreate/socket-client ([798168a](https://github.com/CoCreate-app/CoCreate-charts/commit/798168a40bfa8d22e0943eff716af167ab7fe0b7))
+
 ## [1.3.13](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.3.12...v1.3.13) (2022-10-01)
 
 
