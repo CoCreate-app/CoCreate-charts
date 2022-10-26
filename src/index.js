@@ -7,8 +7,14 @@
 
 "use strict";
 // import moment from 'moment';
-import crud from '@cocreate/crud-client';
+import CRUD from '@cocreate/crud-client';
 import { Chart } from 'chart.js';
+
+let crud
+if(CRUD && CRUD.default)
+	crud = CRUD.default
+else
+	crud = CRUD
 
 function CoCreateChart(el) {
   this.el = el;
@@ -203,6 +209,7 @@ CoCreateChartManager.prototype = {
               operator: operator, 
               filters: filters
             },
+            // ToDo update to use query,sort
             "collection": collect,
             "element": `${i}-${ii}`,
             "operator": {
@@ -212,7 +219,7 @@ CoCreateChartManager.prototype = {
               "search": ""
             }
           }
-          crud.readDocuments(eObj)
+          crud.readDocument(eObj)
 
         }
       }
