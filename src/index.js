@@ -268,7 +268,7 @@ CoCreateChartManager.prototype = {
 
   fetchedData: function(data) {
     var info = data.metadata;
-    var r_data = this.calcProcessing(data.data, info.name, info.operator);
+    var r_data = this.calcProcessing(data.document, info.name, info.operator);
     this.charts[info.chart_idx].setData(r_data, info.datasets_idx, info.data_idx);
   },
   
