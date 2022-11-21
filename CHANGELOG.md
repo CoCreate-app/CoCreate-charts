@@ -1,3 +1,10 @@
+## [1.3.19](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.3.18...v1.3.19) (2022-11-21)
+
+
+### Bug Fixes
+
+* replaced document_id with document._id ([d0afbe9](https://github.com/CoCreate-app/CoCreate-charts/commit/d0afbe9b8d69adb86adbd9494a3954213ffd657c))
+
 ## [1.3.18](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.3.17...v1.3.18) (2022-11-21)
 
 
