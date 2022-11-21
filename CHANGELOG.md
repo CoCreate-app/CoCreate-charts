@@ -1,3 +1,10 @@
+## [1.3.20](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.3.19...v1.3.20) (2022-11-21)
+
+
+### Bug Fixes
+
+* @cocreate/docs bug fix ([8fdf660](https://github.com/CoCreate-app/CoCreate-charts/commit/8fdf660d50f904bcae8b6f7ae9bdf5a10964225b))
+
 ## [1.3.19](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.3.18...v1.3.19) (2022-11-21)
 
 
