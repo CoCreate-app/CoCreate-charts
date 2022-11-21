@@ -1,3 +1,13 @@
+## [1.3.16](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.3.15...v1.3.16) (2022-11-21)
+
+
+### Bug Fixes
+
+* filter-order attributes renamed to filter-sort ([a352890](https://github.com/CoCreate-app/CoCreate-charts/commit/a352890441c0a748b6d593dc711ae8983b8695cc))
+* renamed data.data to data.document ([ea72035](https://github.com/CoCreate-app/CoCreate-charts/commit/ea720353f4cf2f61d83c0fe0b17baefd8c80772e))
+* renamed readDocuments to readDocument ([28c39d1](https://github.com/CoCreate-app/CoCreate-charts/commit/28c39d1cdb145d39128cd58d168c86761d45249a))
+* update crud functions to receive an array of objects as the response ([3bcc8da](https://github.com/CoCreate-app/CoCreate-charts/commit/3bcc8dac251618614928e1e75a03dd4cef55dc53))
+
 ## [1.3.15](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.3.14...v1.3.15) (2022-10-02)
 
 
