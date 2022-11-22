@@ -1,3 +1,11 @@
+## [1.3.21](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.3.20...v1.3.21) (2022-11-22)
+
+
+### Bug Fixes
+
+* apply src: {{source}} to CoCreate.config ([97a55a0](https://github.com/CoCreate-app/CoCreate-charts/commit/97a55a00b42421791aadc1773a0b388ade021a29))
+* workflow docs ([b28d07d](https://github.com/CoCreate-app/CoCreate-charts/commit/b28d07dd855ee074e535e73e1093c7037967ace5))
+
 ## [1.3.20](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.3.19...v1.3.20) (2022-11-21)
 
 
