@@ -1,3 +1,11 @@
+## [1.3.24](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.3.23...v1.3.24) (2022-11-25)
+
+
+### Bug Fixes
+
+* bump dependencies ([cd8e2ab](https://github.com/CoCreate-app/CoCreate-charts/commit/cd8e2ab5db2cfbe503e8721dc82596410d65f165))
+* CoCreate.crud.default removed bug causing default object ([7fcf0c7](https://github.com/CoCreate-app/CoCreate-charts/commit/7fcf0c77ff11cdd467ca1704f6905fdc34183784))
+
 ## [1.3.23](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.3.22...v1.3.23) (2022-11-24)
 
 
