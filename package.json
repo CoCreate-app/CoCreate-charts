@@ -20,9 +20,7 @@
     "html5-framework",
     "javascript-framework"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
+  "publishConfig": { "access": "public" },
   "scripts": {
     "start": "npx webpack --config webpack.config.js",
     "build": "NODE_ENV=production npx webpack --config webpack.config.js",
@@ -35,9 +33,7 @@
   },
   "author": "CoCreate LLC",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/CoCreate-app/CoCreate-charts/issues"
-  },
+  "bugs": { "url": "https://github.com/CoCreate-app/CoCreate-charts/issues" },
   "homepage": "https://cocreate.app/docs/charts",
   "funding": {
     "type": "GitHub Sponsors ❤",
@@ -59,8 +55,8 @@
     "webpack-log": "^3.0.1"
   },
   "dependencies": {
-    "@cocreate/crud-client": "^1.15.8",
-    "@cocreate/docs": "^1.4.8",
+    "@cocreate/crud-client": "^1.15.10",
+    "@cocreate/docs": "^1.4.10",
     "chart.js": "^2.9.3",
     "mini-css-extract-plugin": "^1.5.0",
     "moment": "^2.29.1"
