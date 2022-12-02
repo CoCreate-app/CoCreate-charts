@@ -237,7 +237,7 @@ CoCreateChartManager.prototype = {
       }
       
       if (this.isEmpty(f_operator)) {
-        f_operator = "$contain";
+        f_operator = "$includes";
       }
       
       if (this.isEmpty(f_valueType)) {
