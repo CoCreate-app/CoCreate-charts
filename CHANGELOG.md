@@ -1,3 +1,11 @@
+## [1.3.29](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.3.28...v1.3.29) (2022-12-02)
+
+
+### Bug Fixes
+
+* bump dependencies ([d157ea6](https://github.com/CoCreate-app/CoCreate-charts/commit/d157ea6c2f779c5c88aa543a03efc1648f28d578))
+* renamed $contain to $include ([ae49202](https://github.com/CoCreate-app/CoCreate-charts/commit/ae49202e2adad9dc07fec38e1934412b7c674545))
+
 ## [1.3.28](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.3.27...v1.3.28) (2022-11-28)
 
 
