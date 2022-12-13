@@ -1,9 +1,3 @@
-/*!
- * Chart.js v2.9.3
- * https://www.chartjs.org
- * (c) 2019 Chart.js Contributors
- * Released under the MIT License
- */
 
 "use strict";
 // import moment from 'moment';
@@ -237,7 +231,7 @@ CoCreateChartManager.prototype = {
       }
       
       if (this.isEmpty(f_operator)) {
-        f_operator = "$includes";
+        f_operator = "includes";
       }
       
       if (this.isEmpty(f_valueType)) {
