@@ -1,3 +1,10 @@
+## [1.3.39](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.3.38...v1.3.39) (2022-12-15)
+
+
+### Bug Fixes
+
+* add missing dev dependency style-loader ([3cd9f90](https://github.com/CoCreate-app/CoCreate-charts/commit/3cd9f905d2bf6682ae3ce4bedb0217027fe4bca6))
+
 ## [1.3.38](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.3.37...v1.3.38) (2022-12-13)
 
 
