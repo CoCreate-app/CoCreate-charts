@@ -1,3 +1,10 @@
+## [1.3.43](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.3.42...v1.3.43) (2022-12-22)
+
+
+### Bug Fixes
+
+* bump dependencies ([a994a5f](https://github.com/CoCreate-app/CoCreate-charts/commit/a994a5fa519a90cc280616d764426183a8aba903))
+
 ## [1.3.42](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.3.41...v1.3.42) (2022-12-22)
 
 
