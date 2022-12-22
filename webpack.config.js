@@ -15,7 +15,6 @@ module.exports = {
     libraryExport: "default",
     library: ["CoCreate", "charts"],
     globalObject: "this",
-    // publicPath: 'https://server.cocreate.app/CoCreateJS/dist/'
   },
 
   plugins: [

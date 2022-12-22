@@ -1,14 +1,11 @@
-<html lang="en"><head>
-<meta charset="UTF-8">
-<title>CoCreate - Window</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--<link rel="stylesheet" href="../../../css/CoCreate.min.css" type="text/css" />-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>CoCreate - Window</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdn.cocreate.app/latest/CoCreate.min.css" type="text/css"/>
-<link rel="stylesheet" href="https://cdn.cocreate.app/latest/CoCreate.min.css" type="text/css"/>
-</head>
+    <link rel="stylesheet" href="https://cdn.cocreate.app/latest/CoCreate.min.css" type="text/css"/>
+  </head>
 <body translate="no" style="padding: 20px">
 
 
@@ -89,33 +86,22 @@
     <!--  </div>-->
     
     <!--<button class="loadMore" template_id="example">Load More</button>-->
-  
-
-<script>
-    var CoCreateConfig = {
-      apiKey: 'c2b08663-06e3-440c-ef6f-13978b42883a',
-            organization_id: '5ff747727005da1c272740ab'
-    }
-  </script>
-  
+    
   <!--CoCreateJS-->
-  <!--<script src="https://cdn.cocreate.app/latest/CoCreate.min.js" ></script>-->
-
-  <!--<script src="https://server.cocreate.app/CoCreateCollaboration/dist/CoCreate-collaboration.min.js"></script>-->
-  <!--<script src="https://server.cocreate.app/CoCreate-components/CoCreate-input/dist/CoCreate-input.js"></script>-->
+  <script src="https://cdn.cocreate.app/latest/CoCreate.min.js" ></script>
 
   <script>
-  function generateRandomData() {
-    return Math.floor(Math.random() * 200) - 100;
-  }
-  
-  var els = document.querySelectorAll(".random-data");
-  
-  for (var  i = 0; i < els.length; i++) {
-    var number = generateRandomData();
-    els[i].setAttribute("value", number);
-    els[i].parentNode.classList.add("active");
-  }
+    function generateRandomData() {
+      return Math.floor(Math.random() * 200) - 100;
+    }
+    
+    var els = document.querySelectorAll(".random-data");
+    
+    for (var  i = 0; i < els.length; i++) {
+      var number = generateRandomData();
+      els[i].setAttribute("value", number);
+      els[i].parentNode.classList.add("active");
+    }
   </script>
 
 </body></html>
