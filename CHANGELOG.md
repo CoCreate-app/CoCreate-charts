@@ -1,3 +1,10 @@
+## [1.3.48](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.3.47...v1.3.48) (2022-12-30)
+
+
+### Bug Fixes
+
+* update config sources to use template  braces with entry on src ([dfd0e81](https://github.com/CoCreate-app/CoCreate-charts/commit/dfd0e81c046ae4804a1f03541c7c45b9aa1710ed))
+
 ## [1.3.47](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.3.46...v1.3.47) (2022-12-29)
 
 
