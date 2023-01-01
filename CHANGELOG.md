@@ -1,3 +1,10 @@
+## [1.3.50](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.3.49...v1.3.50) (2023-01-01)
+
+
+### Bug Fixes
+
+* docs sanbox overflow ([1e94f64](https://github.com/CoCreate-app/CoCreate-charts/commit/1e94f64b80e0c65194b12600f0937a7af5362fd3))
+
 ## [1.3.49](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.3.48...v1.3.49) (2022-12-31)
 
 
