@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.3.50...v1.4.0) (2023-01-02)
+
+
+### Features
+
+* class="template" template_id="id" replaced with template="id" ([03e4b4a](https://github.com/CoCreate-app/CoCreate-charts/commit/03e4b4ad4fba958088c9e1ee849cd00f6c77d19d))
+
 ## [1.3.50](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.3.49...v1.3.50) (2023-01-01)
 
 
