@@ -1,3 +1,11 @@
+## [1.4.2](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.4.1...v1.4.2) (2023-01-06)
+
+
+### Bug Fixes
+
+* bump dependencies, worklow [@v3](https://github.com/v3) ([ec74d4c](https://github.com/CoCreate-app/CoCreate-charts/commit/ec74d4c018a08c45cb9e3b0c0bb4e45ec9b84dd9))
+* edit in github btn styles ([cf06c7c](https://github.com/CoCreate-app/CoCreate-charts/commit/cf06c7c83dc1dbb1a6f0c12b09290b7ff9b3d072))
+
 ## [1.4.1](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.4.0...v1.4.1) (2023-01-05)
 
 
