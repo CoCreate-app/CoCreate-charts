@@ -1,3 +1,10 @@
+## [1.4.4](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.4.3...v1.4.4) (2023-01-10)
+
+
+### Bug Fixes
+
+* bump dependencies ([0152257](https://github.com/CoCreate-app/CoCreate-charts/commit/0152257a1ccb34d36a29d84b67fd1f51de128ce3))
+
 ## [1.4.3](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.4.2...v1.4.3) (2023-01-09)
 
 
