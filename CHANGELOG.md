@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.4.11...v1.5.0) (2023-03-16)
+
+
+### Features
+
+* replaced get-value and set-value with a super charged version of CoCreate-events ([3774c65](https://github.com/CoCreate-app/CoCreate-charts/commit/3774c65cda35c14194ea40019605175050eabdb5))
+
 ## [1.4.11](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.4.10...v1.4.11) (2023-02-01)
 
 
