@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.5.6...v1.6.0) (2023-04-24)
+
+
+### Features
+
+* added pwa manifest ([06c25b4](https://github.com/CoCreate-app/CoCreate-charts/commit/06c25b4524583c9370102fe5efa6e1a73f52d141))
+
 ## [1.5.6](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.5.5...v1.5.6) (2023-04-11)
 
 
