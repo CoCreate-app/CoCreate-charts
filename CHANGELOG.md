@@ -1,3 +1,11 @@
+## [1.6.2](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.6.1...v1.6.2) (2023-04-24)
+
+
+### Bug Fixes
+
+* updated worrkflows to v3 and node version 16 ([86ff561](https://github.com/CoCreate-app/CoCreate-charts/commit/86ff56186b76da047f450c0639f9afd002709f73))
+* workflow node version updated  16 ([5b902ea](https://github.com/CoCreate-app/CoCreate-charts/commit/5b902ea178c22f69b6c456519741c2c6b092258a))
+
 ## [1.6.1](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.6.0...v1.6.1) (2023-04-24)
 
 
