@@ -1,3 +1,12 @@
+## [1.6.3](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.6.2...v1.6.3) (2023-04-30)
+
+
+### Bug Fixes
+
+* fullscreen target updated to fullscreen fullscreen-target ([361a010](https://github.com/CoCreate-app/CoCreate-charts/commit/361a010364ccba3069ad12b274c1257debd0f692))
+* package-lock.json and pnpm-lock.yaml added to .gitignore ([006685c](https://github.com/CoCreate-app/CoCreate-charts/commit/006685c068f48593db2ec4f301176c2c887dfe29))
+* removed toogle fullscreen icons. now using css content ([91694d6](https://github.com/CoCreate-app/CoCreate-charts/commit/91694d64faf378b595d29aaf0e57dead58187979))
+
 ## [1.6.2](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.6.1...v1.6.2) (2023-04-24)
 
 
