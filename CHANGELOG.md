@@ -1,3 +1,10 @@
+## [1.6.4](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.6.3...v1.6.4) (2023-05-01)
+
+
+### Bug Fixes
+
+* replace fontawesome with svg ([076761c](https://github.com/CoCreate-app/CoCreate-charts/commit/076761c1c842a8d7661708910a20ff20bfb251cf))
+
 ## [1.6.3](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.6.2...v1.6.3) (2023-04-30)
 
 
