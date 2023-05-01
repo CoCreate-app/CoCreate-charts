@@ -1,3 +1,10 @@
+## [1.6.5](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.6.4...v1.6.5) (2023-05-01)
+
+
+### Bug Fixes
+
+* update manifest.json to manifest.webmanifest ([478ec70](https://github.com/CoCreate-app/CoCreate-charts/commit/478ec70ef7503458309844bc1cbe2474e7e4be2a))
+
 ## [1.6.4](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.6.3...v1.6.4) (2023-05-01)
 
 
