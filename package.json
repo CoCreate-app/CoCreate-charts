@@ -1,6 +1,6 @@
 {
   "name": "@cocreate/charts",
-  "version": "1.6.5",
+  "version": "1.6.6",
   "description": "A simple charts component in vanilla javascript. Easily configured using HTML5 attributes and/or JavaScript API.",
   "keywords": [
     "charts",
