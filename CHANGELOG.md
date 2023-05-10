@@ -1,3 +1,10 @@
+## [1.6.7](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.6.6...v1.6.7) (2023-05-10)
+
+
+### Bug Fixes
+
+* apikey renamed to key ([585e7e6](https://github.com/CoCreate-app/CoCreate-charts/commit/585e7e6d8e45058aaa55be321780bac7d8800a46))
+
 ## [1.6.6](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.6.5...v1.6.6) (2023-05-06)
 
 
