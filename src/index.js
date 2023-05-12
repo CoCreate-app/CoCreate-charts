@@ -197,7 +197,7 @@ CoCreateChartManager.prototype = {
               operator: operator, 
               filters: filters
             },
-            // ToDo update to use query,sort
+            // TODO update to use query,sort
             "collection": collect,
             "element": `${i}-${ii}`,
             "operator": {
