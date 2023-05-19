@@ -1,3 +1,10 @@
+## [1.6.8](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.6.7...v1.6.8) (2023-05-19)
+
+
+### Bug Fixes
+
+* update packages to latest version. This commit updates various packages in the dependencies section of the package.json file to their latest published versions, thereby fixing multiple bugs and improving overall performance. ([729e47b](https://github.com/CoCreate-app/CoCreate-charts/commit/729e47bef7566560a7063322cad4fb2934c1b256))
+
 ## [1.6.7](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.6.6...v1.6.7) (2023-05-10)
 
 
