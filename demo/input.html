@@ -1,108 +1,119 @@
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>CoCreate - Window</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <meta charset="UTF-8" />
+        <title>CoCreate - Window</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" href="https://cdn.cocreate.app/latest/CoCreate.min.css" type="text/css"/>
-    <link rel="manifest" href="/manifest.webmanifest">
-  </head>
-<body translate="no" style="padding: 20px">
+        <link
+            rel="stylesheet"
+            href="https://cdn.cocreate.app/latest/CoCreate.min.css"
+            type="text/css" />
+        <link rel="manifest" href="/manifest.webmanifest" />
+    </head>
+    <body translate="no" style="padding: 20px">
+        <form realtime="false" collection="chart">
+            <input
+                type="number"
+                document_id=""
+                name="Jan"
+                placeholder="January"
+                class="floating-label" />
 
+            <input
+                type="number"
+                document_id=""
+                name="Feb"
+                placeholder="February"
+                class="floating-label" />
 
-<form realtime="false"
-  collection="chart"
- >
+            <input
+                type="number"
+                document_id=""
+                name="Mar"
+                placeholder="March"
+                class="floating-label" />
 
-  <input type="number" 
-    document_id=""
-    name="Jan"
-    placeholder="January"
-    class="floating-label"> 
-  
-  <input type="number"
-    document_id=""
-    name="Feb"
-    placeholder="February"
-    class="floating-label"> 
-  
-  <input type="number"
-    document_id=""
-    name="Mar"
-    placeholder="March"
-    class="floating-label">        
-  
-  <input type="number"
-    document_id=""
-    name="Apr"
-    placeholder="April"
-    class="floating-label"> 
-    
-  <input type="number"
-    document_id=""
-    name="May"
-    placeholder="May"
-    class="floating-label"> 
-  <input type="number" 
-    document_id=""
-    name="Jun"
-    placeholder="June"
-    class="floating-label"> 
-  <input type="number" 
-    document_id=""
-    name="Jul"
-    placeholder="July"
-    class="floating-label">
-  
-  <input type="hidden" 
-    name="module_id"
-    value="5deb167e189f212c8ebd0137"
-    >
-  <!--<div document_id=''>-->
-  <!--  <input type="checkbox" value="create"><label>create</label><br>-->
-  <!--  <input type="checkbox" value="read"><label>read</label><br>-->
-  <!--  <input type="checkbox" value="update"><label>update</label><br>-->
-  <!--  <input type="checkbox" value="delete"><label>delete</label><br>-->
-  <!--</div>-->
-  
-  <!--<select document_id="">-->
-  <!--  <option value="leader">Lead</option>-->
-  <!--  <option value="customer">Customer</option>-->
-  <!--</select> -->
-    
-  <a class="submitBtn position:fixed bottom:15px right:15px bg-blue grow-hover round"><i class="height:20px fill:#505050" src="/assets/svg/save.svg"></i></a>
-  
-  <!--<a class="submitBtn position:fixed bottom:15px right:15px bg-blue grow-hover round"><i class="height:20px fill:#505050" src="/assets/svg/save.svg"></i></a>-->
-</form>
+            <input
+                type="number"
+                document_id=""
+                name="Apr"
+                placeholder="April"
+                class="floating-label" />
 
-    <!--<div id="example" class="row" template="template1"-->
-    <!--  fetch-collection="chart"-->
-    <!--  fetch-module="5deb167e189f212c8ebd0137"-->
-    <!--  filter-sort-name="Jan" -->
-    <!--  filter-sort-direction="asc"-->
-    <!--  >-->
-      
-    <!--  <div class="template" id="template1">-->
-    <!--    <p class="padding-20-lr" document_id="" name="Jan"></h5>-->
-    <!--  </div>-->
-    
-    <!--<button class="loadMore" template_id="example">Load More</button>-->
-    
-  <!--CoCreateJS-->
-  <script src="https://cdn.cocreate.app/latest/CoCreate.min.js" ></script>
+            <input
+                type="number"
+                document_id=""
+                name="May"
+                placeholder="May"
+                class="floating-label" />
+            <input
+                type="number"
+                document_id=""
+                name="Jun"
+                placeholder="June"
+                class="floating-label" />
+            <input
+                type="number"
+                document_id=""
+                name="Jul"
+                placeholder="July"
+                class="floating-label" />
 
-  <script>
-    function generateRandomData() {
-      return Math.floor(Math.random() * 200) - 100;
-    }
-    
-    var els = document.querySelectorAll(".random-data");
-    
-    for (var  i = 0; i < els.length; i++) {
-      var number = generateRandomData();
-      els[i].setAttribute("value", number);
-      els[i].parentNode.classList.add("active");
-    }
-  </script>
+            <input
+                type="hidden"
+                name="module_id"
+                value="5deb167e189f212c8ebd0137" />
+            <!--<div document_id=''>-->
+            <!--  <input type="checkbox" value="create"><label>create</label><br>-->
+            <!--  <input type="checkbox" value="read"><label>read</label><br>-->
+            <!--  <input type="checkbox" value="update"><label>update</label><br>-->
+            <!--  <input type="checkbox" value="delete"><label>delete</label><br>-->
+            <!--</div>-->
 
-</body></html>
+            <!--<select document_id="">-->
+            <!--  <option value="leader">Lead</option>-->
+            <!--  <option value="customer">Customer</option>-->
+            <!--</select> -->
+
+            <a
+                class="submitBtn position:fixed bottom:15px right:15px bg-blue grow-hover round"
+                ><i
+                    class="height:20px fill:#505050"
+                    src="/assets/svg/save.svg"></i
+            ></a>
+
+            <!--<a class="submitBtn position:fixed bottom:15px right:15px bg-blue grow-hover round"><i class="height:20px fill:#505050" src="/assets/svg/save.svg"></i></a>-->
+        </form>
+
+        <!--<div id="example" class="row" template="template1"-->
+        <!--  fetch-collection="chart"-->
+        <!--  fetch-module="5deb167e189f212c8ebd0137"-->
+        <!--  filter-sort-name="Jan" -->
+        <!--  filter-sort-direction="asc"-->
+        <!--  >-->
+
+        <!--  <div class="template" id="template1">-->
+        <!--    <p class="padding-20-lr" document_id="" name="Jan"></h5>-->
+        <!--  </div>-->
+
+        <!--<button class="loadMore" template_id="example">Load More</button>-->
+
+        <!--CoCreateJS-->
+        <script src="https://cdn.cocreate.app/latest/CoCreate.min.js"></script>
+
+        <script>
+            function generateRandomData() {
+                return Math.floor(Math.random() * 200) - 100;
+            }
+
+            var els = document.querySelectorAll(".random-data");
+
+            for (var i = 0; i < els.length; i++) {
+                var number = generateRandomData();
+                els[i].setAttribute("value", number);
+                els[i].parentNode.classList.add("active");
+            }
+        </script>
+    </body>
+</html>
