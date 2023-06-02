@@ -1,3 +1,10 @@
+## [1.6.10](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.6.9...v1.6.10) (2023-06-02)
+
+
+### Bug Fixes
+
+* format demo html ([03cbe7e](https://github.com/CoCreate-app/CoCreate-charts/commit/03cbe7e4e86bbd54f27b40d4e9e1719e964ac5aa))
+
 ## [1.6.9](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.6.8...v1.6.9) (2023-05-21)
 
 
