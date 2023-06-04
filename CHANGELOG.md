@@ -1,3 +1,10 @@
+## [1.6.13](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.6.12...v1.6.13) (2023-06-04)
+
+
+### Bug Fixes
+
+* Refactor CoCreate.config.js to remove hard-coded credentials ([64fa72e](https://github.com/CoCreate-app/CoCreate-charts/commit/64fa72eda0a8b6c457d3362a4a25f10952ba091e))
+
 ## [1.6.12](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.6.11...v1.6.12) (2023-06-04)
 
 
