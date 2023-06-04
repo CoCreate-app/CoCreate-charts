@@ -1,3 +1,10 @@
+## [1.6.11](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.6.10...v1.6.11) (2023-06-04)
+
+
+### Bug Fixes
+
+* **semantic-release:** worklow error solved by running node version 14 ([5e3089b](https://github.com/CoCreate-app/CoCreate-charts/commit/5e3089bbf5484dca9872d5374076308428856b3e))
+
 ## [1.6.10](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.6.9...v1.6.10) (2023-06-02)
 
 
