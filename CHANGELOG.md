@@ -1,3 +1,11 @@
+## [1.6.12](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.6.11...v1.6.12) (2023-06-04)
+
+
+### Bug Fixes
+
+* replaced secert GITHUB_TOKEN with GITHUB ([926823c](https://github.com/CoCreate-app/CoCreate-charts/commit/926823ca4410392f2a6c7cb20c64569db5c1b4e3))
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([f803904](https://github.com/CoCreate-app/CoCreate-charts/commit/f803904c0be3dc6c1aea9632635598c5126846c5))
+
 ## [1.6.11](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.6.10...v1.6.11) (2023-06-04)
 
 
