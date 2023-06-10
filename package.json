@@ -60,7 +60,7 @@
   },
   "dependencies": {
     "@cocreate/crud-client": "^1.21.10",
-    "@cocreate/docs": "^1.8.2",
+    "@cocreate/docs": "^1.8.13",
     "chart.js": "^2.9.3",
     "mini-css-extract-plugin": "^1.5.0",
     "moment": "^2.29.1"
