@@ -1,3 +1,10 @@
+## [1.6.18](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.6.17...v1.6.18) (2023-06-11)
+
+
+### Bug Fixes
+
+* @cocreate/cli moved to dependencies ([cc227b2](https://github.com/CoCreate-app/CoCreate-charts/commit/cc227b265a00a22e22654c759364a30a38324699))
+
 ## [1.6.17](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.6.16...v1.6.17) (2023-06-11)
 
 
