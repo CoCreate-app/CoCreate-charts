@@ -1,3 +1,10 @@
+## [1.6.24](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.6.23...v1.6.24) (2023-06-11)
+
+
+### Bug Fixes
+
+* testing workflow ([df67d2d](https://github.com/CoCreate-app/CoCreate-charts/commit/df67d2d3ab9672d4128e7ac6e91fc0608627b828))
+
 ## [1.6.23](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.6.22...v1.6.23) (2023-06-11)
 
 
