@@ -1,3 +1,10 @@
+## [1.6.25](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.6.24...v1.6.25) (2023-06-11)
+
+
+### Bug Fixes
+
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([5c3fd59](https://github.com/CoCreate-app/CoCreate-charts/commit/5c3fd5990504109450fcaf6186d79ec693478693))
+
 ## [1.6.24](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.6.23...v1.6.24) (2023-06-11)
 
 
