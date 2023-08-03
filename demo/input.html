@@ -12,50 +12,50 @@
         <link rel="manifest" href="/manifest.webmanifest" />
     </head>
     <body translate="no" style="padding: 20px">
-        <form realtime="false" collection="chart">
+        <form realtime="false" array="chart">
             <input
                 type="number"
-                document_id=""
+                object=""
                 name="Jan"
                 placeholder="January"
                 class="floating-label" />
 
             <input
                 type="number"
-                document_id=""
+                object=""
                 name="Feb"
                 placeholder="February"
                 class="floating-label" />
 
             <input
                 type="number"
-                document_id=""
+                object=""
                 name="Mar"
                 placeholder="March"
                 class="floating-label" />
 
             <input
                 type="number"
-                document_id=""
+                object=""
                 name="Apr"
                 placeholder="April"
                 class="floating-label" />
 
             <input
                 type="number"
-                document_id=""
+                object=""
                 name="May"
                 placeholder="May"
                 class="floating-label" />
             <input
                 type="number"
-                document_id=""
+                object=""
                 name="Jun"
                 placeholder="June"
                 class="floating-label" />
             <input
                 type="number"
-                document_id=""
+                object=""
                 name="Jul"
                 placeholder="July"
                 class="floating-label" />
@@ -64,14 +64,14 @@
                 type="hidden"
                 name="module_id"
                 value="5deb167e189f212c8ebd0137" />
-            <!--<div document_id=''>-->
+            <!--<div object=''>-->
             <!--  <input type="checkbox" value="create"><label>create</label><br>-->
             <!--  <input type="checkbox" value="read"><label>read</label><br>-->
             <!--  <input type="checkbox" value="update"><label>update</label><br>-->
             <!--  <input type="checkbox" value="delete"><label>delete</label><br>-->
             <!--</div>-->
 
-            <!--<select document_id="">-->
+            <!--<select object="">-->
             <!--  <option value="leader">Lead</option>-->
             <!--  <option value="customer">Customer</option>-->
             <!--</select> -->
@@ -94,7 +94,7 @@
                 return Math.floor(Math.random() * 200) - 100;
             }
 
-            var els = document.querySelectorAll(".random-data");
+            var els = object.querySelectorAll(".random-data");
 
             for (var i = 0; i < els.length; i++) {
                 var number = generateRandomData();

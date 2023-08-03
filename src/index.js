@@ -165,12 +165,9 @@ CoCreateChartManager.prototype = {
     },
 
     _initSocket: function () {
-        let _this = this;
-        //CoCreateSocket.listen('readDocument', function(data) {
-        crud.listen('readDocument', function (data) {
-            // console.log(data);
-            _this.fetchedData(data);
-
+        let self = this;
+        crud.listen('read.object', function (data) {
+            self.fetchedData(data);
         })
     },
 
@@ -182,13 +179,14 @@ CoCreateChartManager.prototype = {
                 let el_items = this.charts[i].datasets_el[ii].children;
 
                 for (var j = 0; j < el_items.length; j++) {
-                    var collect = el_items[j].getAttribute("fetch-collection");
+                    var collect = el_items[j].getAttribute("fetch-array");
                     var fetch_name = el_items[j].getAttribute("fetch-name");
                     var operator = el_items[j].getAttribute("chart-operator");
 
                     var filters = this._createFilter(el_items[j]);
 
                     var eObj = {
+                        method: 'read.object',
                         "metadata": {
                             chart_idx: i,
                             datasets_idx: ii,
@@ -198,7 +196,7 @@ CoCreateChartManager.prototype = {
                             filters: filters
                         },
                         // TODO update to use query,sort
-                        "collection": collect,
+                        "array": collect,
                         "element": `${i}-${ii}`,
                         "operator": {
                             "filters": filters,
@@ -207,7 +205,7 @@ CoCreateChartManager.prototype = {
                             "search": ""
                         }
                     }
-                    crud.readDocument(eObj)
+                    crud.send(eObj)
 
                 }
             }
@@ -256,7 +254,7 @@ CoCreateChartManager.prototype = {
 
     fetchedData: function (data) {
         var info = data.metadata;
-        var r_data = this.calcProcessing(data.document, info.name, info.operator);
+        var r_data = this.calcProcessing(data.object, info.name, info.operator);
         this.charts[info.chart_idx].setData(r_data, info.datasets_idx, info.data_idx);
     },
 
