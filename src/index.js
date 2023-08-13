@@ -1,7 +1,6 @@
 
 "use strict";
 // import moment from 'moment';
-import crud from '@cocreate/crud-client';
 import { Chart } from 'chart.js';
 
 function CoCreateChart(el) {
@@ -135,10 +134,10 @@ CoCreateChart.prototype = {
         })
     },
 
-    setData: function (value, set_idx, item_idx) {
-        this.chart.data.datasets[set_idx].data[item_idx] = value;
-        this.chart.update();
-    },
+    // setData: function (value, set_idx, item_idx) {
+    //     this.chart.data.datasets[set_idx].data[item_idx] = value;
+    //     this.chart.update();
+    // },
 
     isEmpty: function (data) {
         if (!data || data == "") {
@@ -164,98 +163,54 @@ CoCreateChartManager.prototype = {
         }
     },
 
-    _initSocket: function () {
-        let self = this;
-        crud.listen('read.object', function (data) {
-            self.fetchedData(data);
-        })
-    },
-
     _initfetchData: function () {
-        for (var i = 0; i < this.charts.length; i++) {
+        for (let i = 0; i < this.charts.length; i++) {
 
-            for (var ii = 0; ii < this.charts[i].datasets_el.length; ii++) {
+            for (let ii = 0; ii < this.charts[i].datasets_el.length; ii++) {
 
-                let el_items = this.charts[i].datasets_el[ii].children;
+                let elements = this.charts[i].datasets_el[ii].children;
 
-                for (var j = 0; j < el_items.length; j++) {
-                    var collect = el_items[j].getAttribute("fetch-array");
-                    var fetch_name = el_items[j].getAttribute("fetch-name");
-                    var operator = el_items[j].getAttribute("chart-operator");
+                for (let j = 0; j < elements.length; j++) {
+                    const operator = elements[j].getAttribute("chart-operator");
 
-                    var filters = this._createFilter(el_items[j]);
 
-                    var eObj = {
-                        method: 'read.object',
-                        "metadata": {
-                            chart_idx: i,
-                            datasets_idx: ii,
-                            data_idx: j, name:
-                                fetch_name,
-                            operator: operator,
-                            filters: filters
-                        },
-                        // TODO update to use query,sort
-                        "array": collect,
-                        "element": `${i}-${ii}`,
-                        "operator": {
-                            "filters": filters,
-                            "orders": [],
-                            "index": 0,
-                            "search": ""
-                        }
+                    // var eObj = {
+                    //     method: 'read.object',
+                    //     "metadata": {
+                    //         chart_idx: i,
+                    //         datasets_idx: ii,
+                    //         data_idx: j, 
+                    //          name: fetch_name,
+                    //         operator,
+                    //     },
+                    //     // TODO update to use query,sort
+                    //     "array": collect,
+                    //     "element": `${i}-${ii}`,
+                    // }
+
+                    let data
+                    if (elements[j].getValue)
+                        data = elements[j].getValue()
+                    if (data)
+                        this.setData(data, operator);
+
+                    elements[i].setValue = (data) => {
+                        this.setData(data, elements[j].getAttribute("chart-operator"));
                     }
-                    crud.send(eObj)
 
                 }
             }
         }
     },
 
-    _createFilter: function (el) {
-        var f_els = el.children;
-        var filters = [];
+    // setData: function (value, set_idx, item_idx)
 
-        for (var i = 0; i < f_els.length; i++) {
-            var f_name = f_els[i].getAttribute("filter-name");
-            var f_value = f_els[i].getAttribute("filter-value");
-            var f_operator = f_els[i].getAttribute("filter-operator");
-            var f_valueType = f_els[i].getAttribute("filter-value-type");
+    setData: function (data, operator) {
+        var r_data = this.calcProcessing(data.object, info.name, operator);
+        // this.charts[info.chart_idx].setData(r_data, info.datasets_idx, info.data_idx);
+        this.chart.data.datasets[set_idx].data[item_idx] = value;
+        this.chart.update();
 
-            f_value = f_value.replace(/\s/g, '').split(',')
-
-            if (this.isEmpty(f_name) || this.isEmpty(f_value)) {
-                continue;
-            }
-
-            if (this.isEmpty(f_operator)) {
-                f_operator = "includes";
-            }
-
-            if (this.isEmpty(f_valueType)) {
-                f_valueType = "string";
-            }
-
-            if (f_valueType === "number") {
-                f_value = f_value.map(item => {
-                    if (isNaN(Number(item))) {
-                        return item;
-                    } else {
-                        return Number(item);
-                    }
-                })
-            }
-
-            filters.push({ name: f_name, operator: f_operator, value: f_value });
-        }
-        console.log(filters)
-        return filters;
-    },
-
-    fetchedData: function (data) {
-        var info = data.metadata;
-        var r_data = this.calcProcessing(data.object, info.name, info.operator);
-        this.charts[info.chart_idx].setData(r_data, info.datasets_idx, info.data_idx);
     },
 
     calcProcessing(data, key, operator) {
