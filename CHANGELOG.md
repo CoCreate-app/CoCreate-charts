@@ -1,3 +1,20 @@
+# [1.7.0](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.6.27...v1.7.0) (2023-08-16)
+
+
+### Bug Fixes
+
+* crud attributes renamed ([f4fc78f](https://github.com/CoCreate-app/CoCreate-charts/commit/f4fc78ff36c534dd70a6c6b77a101fa7d111a3b3))
+* Remove unused "@cocreate/crud-client" dependency and update other dependencies. ([fa2ae02](https://github.com/CoCreate-app/CoCreate-charts/commit/fa2ae0299a958c248dead909ace0f1c1a1292150))
+* replace -target -selector ([3f2286d](https://github.com/CoCreate-app/CoCreate-charts/commit/3f2286db09dbbb492e269f9338da620dc6148d30))
+* webpack.config and package.json make use of mode=production instead of process.env ([553e840](https://github.com/CoCreate-app/CoCreate-charts/commit/553e840ccf63bcc61dffa094bc80b29eac7a72a4))
+
+
+### Features
+
+* name attribute and variable renamed to key ([fda689f](https://github.com/CoCreate-app/CoCreate-charts/commit/fda689f04637503bdc7d4d36fbbc4aa0d5763ce2))
+* Refactor fetching and setting data in `CoCreateChartManager` ([8e2f5ac](https://github.com/CoCreate-app/CoCreate-charts/commit/8e2f5acaf6cea2b8474bb93f867a50d76e3a0f8f))
+* update template_id to render-selector attribute. update filter attributes to filter selector-attributes ([726a7bf](https://github.com/CoCreate-app/CoCreate-charts/commit/726a7bf6356dfa25f90cc8e9636b8f4faa7724a8))
+
 ## [1.6.27](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.6.26...v1.6.27) (2023-06-14)
 
 
