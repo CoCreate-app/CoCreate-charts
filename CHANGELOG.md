@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.7.0...v1.8.0) (2023-08-17)
+
+
+### Features
+
+* bump cocreate dependencies for the latest updates and features ([a65754e](https://github.com/CoCreate-app/CoCreate-charts/commit/a65754e0309f464eb609bd8cc90058a3b4ac6ab2))
+
 # [1.7.0](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.6.27...v1.7.0) (2023-08-16)
 
 
