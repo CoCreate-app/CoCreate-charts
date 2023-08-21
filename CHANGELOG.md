@@ -1,3 +1,12 @@
+## [1.8.1](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.8.0...v1.8.1) (2023-08-21)
+
+
+### Bug Fixes
+
+* /dist/CoCreate.js updated to https://CoCreate.app/dist/CoCreate.js ([5a76f6d](https://github.com/CoCreate-app/CoCreate-charts/commit/5a76f6d15b83f54e9ca769215ee179d9d02cc090))
+* replace cdn with /dist ([0300adf](https://github.com/CoCreate-app/CoCreate-charts/commit/0300adfe5fd96b7da0d7858036c88f28d9b8fe16))
+* update file uploader ([cdcb6dd](https://github.com/CoCreate-app/CoCreate-charts/commit/cdcb6ddf379feba729e826a4094b0d1f9b1f3a0a))
+
 # [1.8.0](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.7.0...v1.8.0) (2023-08-17)
 
 
