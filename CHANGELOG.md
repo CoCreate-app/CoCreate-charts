@@ -1,3 +1,11 @@
+## [1.9.2](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.9.1...v1.9.2) (2023-09-18)
+
+
+### Bug Fixes
+
+*  Add path and pathname ([8cfe0c8](https://github.com/CoCreate-app/CoCreate-charts/commit/8cfe0c83b192442d877ba3a1fa4535af93a71b5f))
+* Update CoCreate depndencies to latest versions ([5dcf28d](https://github.com/CoCreate-app/CoCreate-charts/commit/5dcf28dcc9f7e2b357705581d1cc0ce262c79f06))
+
 ## [1.9.1](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.9.0...v1.9.1) (2023-08-21)
 
 
