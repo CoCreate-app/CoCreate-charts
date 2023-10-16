@@ -163,7 +163,7 @@ CoCreateChartManager.prototype = {
         }
     },
 
-    _initfetchData: function () {
+    _initfetchData: async function () {
         for (let i = 0; i < this.charts.length; i++) {
 
             for (let ii = 0; ii < this.charts[i].datasets_el.length; ii++) {
@@ -190,7 +190,7 @@ CoCreateChartManager.prototype = {
 
                     let data
                     if (elements[j].getValue)
-                        data = elements[j].getValue()
+                        data = await elements[j].getValue()
                     if (data)
                         this.setData(data, operator);
 
