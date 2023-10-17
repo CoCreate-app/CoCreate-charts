@@ -1,3 +1,10 @@
+## [1.9.3](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.9.2...v1.9.3) (2023-10-17)
+
+
+### Bug Fixes
+
+* await getValue() ([c609680](https://github.com/CoCreate-app/CoCreate-charts/commit/c6096801e0e3b8b71d1969d58f3220aabc248a48))
+
 ## [1.9.2](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.9.1...v1.9.2) (2023-09-18)
 
 
