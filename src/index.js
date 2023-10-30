@@ -175,7 +175,7 @@ CoCreateChartManager.prototype = {
 
 
                     // var eObj = {
-                    //     method: 'read.object',
+                    //     method: 'object.read',
                     //     "metadata": {
                     //         chart_idx: i,
                     //         datasets_idx: ii,
