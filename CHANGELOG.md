@@ -1,3 +1,12 @@
+## [1.9.5](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.9.4...v1.9.5) (2023-11-03)
+
+
+### Bug Fixes
+
+* favicon.ico path ([10d3518](https://github.com/CoCreate-app/CoCreate-charts/commit/10d3518b4fc888983ddc66c09bb13557bbe59f49))
+* update dependencies to the lates versions ([3be5939](https://github.com/CoCreate-app/CoCreate-charts/commit/3be59399a669951a0542ecfd3a2f0d8a1db1e55a))
+* update method to use object.update etc ([3f4ac21](https://github.com/CoCreate-app/CoCreate-charts/commit/3f4ac21bdbb178abe6ed75ca97c732247b3d7879))
+
 ## [1.9.4](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.9.3...v1.9.4) (2023-10-25)
 
 
