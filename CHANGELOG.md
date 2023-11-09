@@ -1,3 +1,11 @@
+## [1.9.6](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.9.5...v1.9.6) (2023-11-09)
+
+
+### Bug Fixes
+
+* meta name typo ([454b8c1](https://github.com/CoCreate-app/CoCreate-charts/commit/454b8c1dd1dafe0580e09cec0d5d3fb67b1459f4))
+* update host ([9426382](https://github.com/CoCreate-app/CoCreate-charts/commit/9426382e16e9fe44a83f263748b5df25f6e65488))
+
 ## [1.9.5](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.9.4...v1.9.5) (2023-11-03)
 
 
