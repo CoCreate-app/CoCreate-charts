@@ -1,3 +1,15 @@
+# [1.11.0](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.10.0...v1.11.0) (2023-11-25)
+
+
+### Bug Fixes
+
+* update nav, edit button and css path ([684008a](https://github.com/CoCreate-app/CoCreate-charts/commit/684008af6fc2170b28dd616aa70c68abb2443377))
+
+
+### Features
+
+* upgrade dependencies for latest features and fixes ([71df3e4](https://github.com/CoCreate-app/CoCreate-charts/commit/71df3e41abe35342faeb025dff8c53d9c2695b67))
+
 # [1.10.0](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.9.7...v1.10.0) (2023-11-19)
 
 
