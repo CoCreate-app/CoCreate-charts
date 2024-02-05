@@ -1,3 +1,10 @@
+## [1.12.1](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.12.0...v1.12.1) (2024-02-05)
+
+
+### Bug Fixes
+
+* Removed https://cdn.cocreate.app/latest/CoCreate.min.css ([7891619](https://github.com/CoCreate-app/CoCreate-charts/commit/7891619dd5ee3309aa50d6e6ab5c9c7eca951efb))
+
 # [1.12.0](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.11.0...v1.12.0) (2023-11-25)
 
 
