@@ -1,3 +1,11 @@
+## [1.12.3](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.12.2...v1.12.3) (2024-06-12)
+
+
+### Bug Fixes
+
+* bump cocreate dependencies ([8f03484](https://github.com/CoCreate-app/CoCreate-charts/commit/8f03484648d4e43a0d37fcc976317e34b039549a))
+* svg icon class ([44052fc](https://github.com/CoCreate-app/CoCreate-charts/commit/44052fc354d72e4d22f0151247e4a534cffa401f))
+
 ## [1.12.2](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.12.1...v1.12.2) (2024-04-29)
 
 
