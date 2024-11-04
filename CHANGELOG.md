@@ -1,3 +1,16 @@
+# [1.13.0](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.12.3...v1.13.0) (2024-11-04)
+
+
+### Bug Fixes
+
+* pretier.config.js and file formating ([d0d5622](https://github.com/CoCreate-app/CoCreate-charts/commit/d0d5622786b1e7ac4991af6096619faa941e8008))
+
+
+### Features
+
+* add prettier.config.js and format files ([87219b1](https://github.com/CoCreate-app/CoCreate-charts/commit/87219b17656cbee8b6988b4f8e3130ee13f7fa53))
+* add prettier.config.js and format files ([458b18a](https://github.com/CoCreate-app/CoCreate-charts/commit/458b18ab5b3fecaba8d996d25c6cfba1c1636df0))
+
 ## [1.12.3](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.12.2...v1.12.3) (2024-06-12)
 
 
