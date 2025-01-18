@@ -1,3 +1,10 @@
+## [1.13.1](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.13.0...v1.13.1) (2025-01-18)
+
+
+### Bug Fixes
+
+* filter-query-key ([0a3e2a1](https://github.com/CoCreate-app/CoCreate-charts/commit/0a3e2a143895d7c1fafabc4f16feb594aeb9f749))
+
 # [1.13.0](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.12.3...v1.13.0) (2024-11-04)
 
 
