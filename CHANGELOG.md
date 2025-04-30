@@ -1,3 +1,13 @@
+## [1.13.2](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.13.1...v1.13.2) (2025-04-30)
+
+
+### Bug Fixes
+
+* added css-loader ([35c9366](https://github.com/CoCreate-app/CoCreate-charts/commit/35c9366f64e1721742ac3304aaa8af0536680e7b))
+* update query attributes ([62099ec](https://github.com/CoCreate-app/CoCreate-charts/commit/62099ec8549235a5af7c030485927d2c0cb0fc04))
+* updated cocreate modules versions ([8c845e2](https://github.com/CoCreate-app/CoCreate-charts/commit/8c845e22d61780b70fbc47c971f962d3018554e3))
+* webpack.config and devdependencies ([5bcb263](https://github.com/CoCreate-app/CoCreate-charts/commit/5bcb263962c737ce27a6fa00fc8464fa5097b118))
+
 ## [1.13.1](https://github.com/CoCreate-app/CoCreate-charts/compare/v1.13.0...v1.13.1) (2025-01-18)
 
 
